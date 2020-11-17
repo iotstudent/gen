@@ -3,6 +3,21 @@
   padding-bottom: 200px;
 }
 
+.header-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.header-footer a {
+  text-decoration: none;
+}
+
+.header-footer p {
+  color: #fff;
+  font-size: 24px;
+}
+
 /* .about {
   margin-top: 70px;
 } */
@@ -13,7 +28,7 @@
 }
 
 .about .services {
-  margin-top: 100px;
+  margin-top: 170px;
 }
 
 .about .left {
@@ -60,7 +75,7 @@
 }
 
 .clients {
-  background-color: #F4F3FA;
+  background-color: #E7FBEE;
   padding: 150px 0;
 }
 
@@ -70,6 +85,18 @@
   font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 100;
+}
+
+.client .logic, .client .cash, .client .cbt, .client .near {
+  width: 100px;
+}
+
+.client .crowd, .client .petro, .client .wit, .client .nlpc {
+  width: 100px;
+}
+
+.client .wtc, .client .seed, .client .times, .client .bsn {
+  width: 100px;
 }
 
 .cli2, .cli3 {
@@ -100,6 +127,24 @@
   color: #06D755;
   font-size: 30px;
   margin-left: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -30px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links p {
+  color: #fff;
+}
+
+.links p:hover {
+  color: #eee;
 }
 
 .copyright a {
