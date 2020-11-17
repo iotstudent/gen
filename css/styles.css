@@ -157,12 +157,12 @@ a.white {
 
 .btn-solid-lg {
 	display: inline-block;
-	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	padding: 1.375rem 2rem 1.375rem 2rem;
 	border: 0.125rem solid #82c225;
 	border-radius: 2rem;
 	background-color: #82c225;
 	color: #fff;
-	font: 700 0.75rem/0 "Muli", sans-serif;
+	font: 700 0.9rem/0 "Muli", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }

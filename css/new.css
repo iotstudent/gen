@@ -1,3 +1,7 @@
+#header {
+  height: 110vh;
+}
+
 .second-sec {
   margin-top: 50px;
 }
@@ -27,8 +31,9 @@
   font-family: 'Archivo Black', sans-serif;
 }
 
-.client {
-  margin-bottom: 100px;
+.clients {
+  background-color: #F4F3FA;
+  padding: 150px 0;
 }
 
 .client p {
@@ -58,31 +63,44 @@
   font-weight: 100;
   line-height: 2rem;
 }
-.copyright a{
+
+.fa-whatsapp {
+  color: #06D755;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.copyright a {
   text-decoration: none;
 }
 
-@media screen and (max-width:769px){
-  .headre h1{
+@media screen and (max-width:769px) {
+  .headre h1 {
     font-size: 20px;
     margin-top: -80px;
+  }
+  #header {
+    height: 100vh;
   }
 }
 
 @media screen and (max-width:420px) {
-  .basic-1 .para{
+  #header {
+    height: 50vh;
+  }
+  .basic-1 .para {
     font-size: 24px;
   }
-  .par{
+  .par {
     font-size: 28px;
   }
-  .client img{
+  .client img {
     margin-top: 30px;
   }
-  .client p{
+  .client p {
     font-size: 24px;
   }
-  .footer h1{
+  .footer h1 {
     font-size: 44px;
     line-height: 1;
   }
