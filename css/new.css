@@ -9,10 +9,17 @@
 
 .about .p-heading {
   font-family: 'Muli', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
 }
-.about .services{
+
+.about .services {
   margin-top: 50px;
+}
+
+.border-bottom {
+  background-color: #06D755;
+  width: 50px;
+  padding: 1px;
 }
 
 .second-sec {
@@ -55,6 +62,10 @@
   font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 100;
+}
+
+.cli2, .cli3 {
+  margin-top: 15px;
 }
 
 .client img {
