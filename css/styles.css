@@ -784,6 +784,7 @@ input[type='checkbox'] {
 
 .header {
 	background-color: #0A1B2B;
+	height: 100vh;
 }
 
 .header .header-content {
@@ -1892,7 +1893,7 @@ a:hover.back-to-top {
 	/* end of navigation */
 	/* General Styles */
 	.p-heading {
-		width: 65%;
+		width: 100%;
 	}
 	/* end of general styles */
 	/* Header */
@@ -2032,7 +2033,7 @@ a:hover.back-to-top {
 	/* end of navigation */
 	/* General Styles */
 	.p-heading {
-		width: 55%;
+		width: 100%;
 	}
 	/* end of general styles */
 	/* Header */

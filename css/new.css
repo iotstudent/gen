@@ -1,5 +1,18 @@
 #header {
-  height: 110vh;
+  height: 130vh;
+  padding-bottom: 200px;
+}
+
+.about {
+  margin-top: 70px;
+}
+
+.about .p-heading {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+.about .services{
+  margin-top: 50px;
 }
 
 .second-sec {
@@ -75,9 +88,9 @@
 }
 
 @media screen and (max-width:769px) {
-  .headre h1 {
-    font-size: 20px;
-    margin-top: -80px;
+  .header h1 {
+    font-size: 60px;
+    margin-top: 20px;
   }
   #header {
     height: 100vh;
@@ -85,6 +98,10 @@
 }
 
 @media screen and (max-width:420px) {
+  .header h1 {
+    font-size: 20px;
+    /* margin-top: -80px; */
+  }
   #header {
     height: 50vh;
   }
