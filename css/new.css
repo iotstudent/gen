@@ -1,3 +1,89 @@
-.second-sec{
+.second-sec {
   margin-top: 50px;
+}
+
+.par {
+  color: #111;
+  font-size: 32px;
+  font-family: 'Archivo Black', sans-serif;
+  margin-top: 20px;
+}
+
+.img3 {
+  margin-top: 80px;
+}
+
+.footer h1 {
+  font-size: 96px;
+  font-family: 'Archivo Black', sans-serif;
+  line-height: 6.2rem;
+  text-decoration: underline;
+}
+
+.sect h1 {
+  color: #82c225;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.client {
+  margin-bottom: 100px;
+}
+
+.client p {
+  color: #111;
+  font-size: 40px;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  font-weight: 100;
+}
+
+.client img {
+  width: 150px;
+}
+
+.cli .human {
+  width: 80px;
+}
+
+.client .col-lg-7 {
+  /* margin-left: 200px; */
+  margin-left: 90px;
+}
+
+.footer p {
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+  line-height: 2rem;
+}
+.copyright a{
+  text-decoration: none;
+}
+
+@media screen and (max-width:769px){
+  .headre h1{
+    font-size: 20px;
+    margin-top: -80px;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .basic-1 .para{
+    font-size: 24px;
+  }
+  .par{
+    font-size: 28px;
+  }
+  .client img{
+    margin-top: 30px;
+  }
+  .client p{
+    font-size: 24px;
+  }
+  .footer h1{
+    font-size: 44px;
+    line-height: 1;
+  }
 }

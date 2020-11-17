@@ -107,7 +107,7 @@ h6 {
 }
 
 a {
-	color: #626262;
+	color: #fff;
 	text-decoration: underline;
 }
 
@@ -134,6 +134,7 @@ a.white {
 
 .turquoise {
 	color: #82c225;
+	text-decoration: underline;
 }
 
 .btn-solid-reg {
@@ -656,7 +657,7 @@ input[type='checkbox'] {
 /**************************/
 
 .navbar-custom {
-	background-color: #fff;
+	background-color: #0A1B2B;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 600 0.875rem/0.875rem "Muli", sans-serif;
 	transition: all 0.2s;
@@ -669,7 +670,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 600 2rem/1.5rem "Muli", sans-serif;
-	color: #393939;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -680,7 +681,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #393939;
+	color: #fff;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -754,7 +755,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-toggler {
 	border: none;
-	color: #393939;
+	color: #fff;
 	font-size: 2rem;
 }
 
@@ -782,7 +783,7 @@ input[type='checkbox'] {
 /*********************/
 
 .header {
-	background-color: #fff;
+	background-color: #0A1B2B;
 }
 
 .header .header-content {
@@ -797,22 +798,26 @@ input[type='checkbox'] {
 
 .header h1 {
 	margin-bottom: 1.125rem;
-	font-size: 7rem;
-	line-height: 3.125rem;
+	font-size: 2rem;
+	line-height: 2.4rem;
 	color: #fff;
+	font-family: 'Archivo Black', sans-serif;
 }
 
 .header .p-large {
 	margin-bottom: 1.875rem;
 	color: #fff;
 	/* padding-left: 50px; */
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .para {
-	font-size: 22px;
+	color: #111;
+	font-size: 40px;
 	line-height: 1.1;
 	margin-bottom: 30px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 100;
 }
 
 /*************************/
@@ -1540,6 +1545,7 @@ input[type='checkbox'] {
 
 .footer h4 {
 	margin-bottom: 1rem;
+	font-family: 'Archivo Black', sans-serif;
 }
 
 .footer .list-unstyled .fas {
@@ -1717,9 +1723,9 @@ a:hover.back-to-top {
 	}
 	.header h1 {
 		font-size: 5.5rem;
-		line-height: 6.5rem;
-		margin-top: -100px;
-		/* padding-left: 40px; */
+		line-height: 5.5rem;
+		margin-top: -130px;
+		font-family: 'Archivo Black', sans-serif;
 	}
 	/* end of header */
 	/* Customers */
@@ -1822,10 +1828,10 @@ a:hover.back-to-top {
 	.navbar-custom.top-nav-collapse {
 		padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #fff;
+		background-color: #0A1B2B;
 	}
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #393939;
+		color: #fff;
 		opacity: 1;
 	}
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover, .navbar-custom.top-nav-collapse .nav-item .nav-link.active {
