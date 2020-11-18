@@ -1,6 +1,6 @@
-/* Template: Evolo - StartUp HTML Landing Page Template
-   Author: Inovatik
-   Created: June 2019
+/* Template: Juno - Multipurpose Landing Page Pack
+   Author: InovatikThemes
+   Created: Mar 2019
    Description: Custom JS file
 */
 
@@ -24,7 +24,7 @@
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
-		if ($(".navbar").offset().top > 60) {
+		if ($(".navbar").offset().top > 20) {
 			$(".fixed-top").addClass("top-nav-collapse");
 		} else {
 			$(".fixed-top").removeClass("top-nav-collapse");
@@ -49,40 +49,19 @@
     });
 
 
-    /* Image Slider - Swiper */
-    var imageSlider = new Swiper('.image-slider', {
-        autoplay: {
-            delay: 2000,
-            disableOnInteraction: false
-		},
-        loop: true,
-        spaceBetween: 30,
-        slidesPerView: 5,
-		breakpoints: {
-            // when window is <= 580px
-            580: {
-                slidesPerView: 1,
-                spaceBetween: 10
-            },
-            // when window is <= 768px
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 20
-            },
-            // when window is <= 992px
-            992: {
-                slidesPerView: 3,
-                spaceBetween: 20
-            },
-            // when window is <= 1200px
-            1200: {
-                slidesPerView: 4,
-                spaceBetween: 20
-            },
-
-        }
+    /* Rotating Text - Morphtext */
+	$("#js-rotating").Morphext({
+		// The [in] animation type. Refer to Animate.css for a list of available animations.
+		animation: "fadeIn",
+		// An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+		separator: ",",
+		// The delay between the changing of each phrase in milliseconds.
+		speed: 2000,
+		complete: function () {
+			// Called after the entrance animation is executed.
+		}
     });
-
+    
 
     /* Card Slider - Swiper */
 	var cardSlider = new Swiper('.card-slider', {
@@ -94,10 +73,83 @@
         navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev'
+		},
+		slidesPerView: 3,
+		spaceBetween: 20,
+        breakpoints: {
+            // when window is <= 992px
+            992: {
+                slidesPerView: 2
+            },
+            // when window is <= 768px
+            768: {
+                slidesPerView: 1
+            } 
+        }
+    });
+
+    
+    /* Image Slider - Swiper */
+    var imageSlider = new Swiper('.image-slider', {
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false
+		},
+        loop: false,
+        navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+        spaceBetween: 30,
+        slidesPerView: 5,
+		breakpoints: {
+            // when window is <= 380px
+            380: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            },
+            // when window is <= 516px
+            516: {
+                slidesPerView: 2,
+                spaceBetween: 10
+            },
+            // when window is <= 768px
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            // when window is <= 992px
+            992: {
+                slidesPerView: 4,
+                spaceBetween: 30
+            },
+            // when window is <= 1200px
+            1200: {
+                slidesPerView: 5,
+                spaceBetween: 30
+            },
+        }
+    });
+
+
+    /* Image Slider - Magnific Popup */
+	$('.popup-link').magnificPopup({
+		removalDelay: 300,
+		type: 'image',
+		callbacks: {
+			beforeOpen: function() {
+				this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure ' + this.st.el.attr('data-effect'));
+			},
+			beforeClose: function() {
+				$('.mfp-figure').addClass('fadeOut');
+			}
+		},
+		gallery:{
+			enabled:true //enable gallery mode
 		}
     });
-    
 
+    
     /* Video Lightbox - Magnific Popup */
     $('.popup-youtube, .popup-vimeo').magnificPopup({
         disableOn: 700,
@@ -144,7 +196,39 @@
 		mainClass: 'my-mfp-slide-bottom'
 	});
     
-    
+
+    /* Counter - CountTo */
+	var a = 0;
+	$(window).scroll(function() {
+		if ($('#counter').length) { // checking if CountTo section exists in the page, if not it will not run the script and avoid errors	
+			var oTop = $('#counter').offset().top - window.innerHeight;
+			if (a == 0 && $(window).scrollTop() > oTop) {
+			$('.counter-value').each(function() {
+				var $this = $(this),
+				countTo = $this.attr('data-count');
+				$({
+				countNum: $this.text()
+				}).animate({
+					countNum: countTo
+				},
+				{
+					duration: 2000,
+					easing: 'swing',
+					step: function() {
+					$this.text(Math.floor(this.countNum));
+					},
+					complete: function() {
+					$this.text(this.countNum);
+					//alert('finished');
+					}
+				});
+			});
+			a = 1;
+			}
+		}
+    });
+
+
     /* Move Form Fields Label When User Types */
     // for input and textarea fields
     $("input, textarea").keyup(function(){
@@ -155,64 +239,6 @@
 		}
     });
 
-
-    /* Request Form */
-    $("#requestForm").validator().on("submit", function(event) {
-    	if (event.isDefaultPrevented()) {
-            // handle the invalid form...
-            rformError();
-            rsubmitMSG(false, "Please fill all fields!");
-        } else {
-            // everything looks good!
-            event.preventDefault();
-            rsubmitForm();
-        }
-    });
-
-    function rsubmitForm() {
-        // initiate variables with form content
-		var name = $("#rname").val();
-		var email = $("#remail").val();
-		var phone = $("#rphone").val();
-        var select = $("#rselect").val();
-        var terms = $("#rterms").val();
-        
-        $.ajax({
-            type: "POST",
-            url: "php/requestform-process.php",
-            data: "name=" + name + "&email=" + email + "&phone=" + phone + "&select=" + select + "&terms=" + terms, 
-            success: function(text) {
-                if (text == "success") {
-                    rformSuccess();
-                } else {
-                    rformError();
-                    rsubmitMSG(false, text);
-                }
-            }
-        });
-	}
-
-    function rformSuccess() {
-        $("#requestForm")[0].reset();
-        rsubmitMSG(true, "Request Submitted!");
-        $("input").removeClass('notEmpty'); // resets the field label after submission
-    }
-
-    function rformError() {
-        $("#requestForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-            $(this).removeClass();
-        });
-	}
-
-    function rsubmitMSG(valid, msg) {
-        if (valid) {
-            var msgClasses = "h3 text-center tada animated";
-        } else {
-            var msgClasses = "h3 text-center";
-        }
-        $("#rmsgSubmit").removeClass().addClass(msgClasses).text(msg);
-    }
-    
 
     /* Contact Form */
     $("#contactForm").validator().on("submit", function(event) {
@@ -347,3 +373,5 @@
 	});
 
 })(jQuery);
+
+
