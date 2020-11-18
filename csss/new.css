@@ -18,18 +18,18 @@
   font-size: 18px;
 }
 
-/* .about {
-  margin-top: 70px;
-} */
+.about {
+  margin-top: 150px;
+}
 
 .about .p-heading {
   font-family: 'Muli', sans-serif;
   font-size: 17px;
 }
 
-.about .services {
+/* .about .services {
   margin-top: 170px;
-}
+} */
 
 .about .left {
   background-color: rgb(235, 166, 166);
@@ -86,7 +86,8 @@
   line-height: 1;
   font-weight: 100;
 }
-.h2{
+
+.h2 {
   margin-top: -10px;
 }
 
@@ -150,7 +151,7 @@
 .links p {
   color: #fff;
   font-size: 0.8rem;
-  margin-top: -10px;
+  margin-top: -35px;
   padding: 20px;
 }
 
@@ -164,11 +165,18 @@
 
 @media screen and (max-width:769px) {
   .header h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 20px;
   }
   #header {
-    height: 100vh;
+    height: 80vh;
+  }
+  .header-footer {
+    margin-top: 80px;
+  }
+  .links {
+    flex-direction: column;
+    margin-left: 0px;
   }
 }
 
@@ -178,7 +186,13 @@
     /* margin-top: -80px; */
   }
   #header {
-    height: 50vh;
+    height: 80vh;
+  }
+  .header-footer p {
+    font-size: 14px;
+  }
+  .about{
+    margin-top: 100px;
   }
   .basic-1 .para {
     font-size: 24px;
@@ -195,5 +209,9 @@
   .footer h1 {
     font-size: 44px;
     line-height: 1;
+  }
+  .links {
+    flex-direction: row;
+    margin-left: 0px;
   }
 }
