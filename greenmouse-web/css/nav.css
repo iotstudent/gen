@@ -1,0 +1,165 @@
+body {
+  overflow-x: hidden;
+  /* background-color: #0A1B2B; */
+}
+
+.navbar-brand img {
+  width: 300px;
+}
+
+.navbar-nav {
+  margin-left: 10px;
+}
+
+.hero-text {
+  margin-top: -120px;
+}
+
+.header h1 {
+  font-family: 'Poppins', serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.header p {
+  color: #222;
+}
+
+.screen {
+  background-color: #0A1B2B;
+}
+
+.square {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(109, 96, 228);
+}
+
+.square1 {
+  height: 50px;
+  width: 350px;
+  background-color: rgba(143, 190, 66, 0.253);
+  margin-left: 50px;
+}
+
+.square2 {
+  height: 50px;
+  width: 300px;
+  background-color: #bee780f6;
+}
+
+.fa-square, .fa-circle, .fa-star {
+  color: rgb(88, 86, 86);
+}
+
+.basic1-img {
+  margin-top: 100px !important;
+}
+
+.bases {
+  margin-top: -20px;
+}
+
+#details, .bases {
+  background-color: #fff;
+  /* background-image: url(../images/pattern_2.svg); */
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #82c225;
+  color: #fff !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #82c225;
+}
+
+.fa-bars {
+  /* color: #fff; */
+  /* margin-right: 20px; */
+}
+
+.footer-logo {
+  width: 70px;
+  margin-top: -20px;
+  margin-left: -30px;
+}
+
+@media screen and (max-width: 990px) {
+  #preview .img-fluid {
+    margin-left: 0;
+    margin-top: -240px;
+  }
+  .hero-text {
+    margin-top: 0px;
+  }
+  .header h1 {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .hero-text {
+    margin-top: -70px;
+  }
+  #preview .img-fluid {
+    margin-top: -250px;
+    margin-bottom: -60px;
+  }
+  .header h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header h1 {
+    font-family: 'Poppins', serif;
+    font-weight: bolder;
+    font-size: 26px;
+  }
+  .header p {
+    font-size: .8em;
+    font-weight: 100;
+    margin-top: 10px;
+  }
+  #preview .img-fluid {
+    margin-top: -360px;
+    margin-bottom: -60px;
+  }
+  .bases{
+    margin-top: -200px;
+  }
+  .basic-1 .video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: -10px;
+    left: 50%;
+    display: block;
+    box-sizing: content-box;
+    width: 2rem;
+    height: 2.75rem;
+    padding: 1.125rem 1.25rem 1.125rem 1.75rem;
+    border-radius: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .counter{
+    margin-top: -150px;
+  }
+  #contact{
+    margin-top: -130px;
+    margin-bottom: -100px;
+  }
+  .footer-logo {
+    width: 70px;
+    margin-top: -20px;
+    margin-left: 0px;
+  }
+
+}
