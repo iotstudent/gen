@@ -279,12 +279,27 @@ a.white {
 	padding-left: 1.3125rem;
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
-	background-color: #fff;
-	color: #626262;
+	background-color: transparent;
+	color: #eee;
+	border-color: #82c225;
 	font: 400 0.875rem/1.875rem "Muli", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+	border-bottom-color: #84C225;
 	/* removes inner shadow on form inputs on ios safari */
+}
+
+.form-control-textarea {
+	background-color: transparent !important;
+	border-color: #84C225 !important;
+}
+
+input::placeholder {
+	color: #eee !important;
 }
 
 .form-control-select {
@@ -1489,13 +1504,14 @@ input[type='checkbox'] {
 .form-2 {
 	padding-top: 7rem;
 	padding-bottom: 6.25rem;
-	background: url('../images/contact-background.jpg') center center no-repeat;
+	/* background: url('../images/contact-background.jpg') center center no-repeat; */
 	background-size: cover;
 }
 
 .form-2 h2 {
 	margin-bottom: 1rem;
 	text-align: center;
+	color: #fff;
 }
 
 .form-2 .list-unstyled {
@@ -1784,9 +1800,11 @@ a:hover.back-to-top {
 		display: inline-block;
 		margin-right: 0.5rem;
 		margin-left: 0.5rem;
+		color: #fff;
 	}
 	.form-2 .list-unstyled .address {
 		display: block;
+		color: #fff;
 	}
 	/* end of contact */
 	/* Extra Pages */
