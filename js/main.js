@@ -19,3 +19,42 @@ links.forEach(link => {
   });
 
 });
+
+// gsap
+function init() {
+
+  //load animation
+  window.onload = function () {
+    const master = gsap.timeline();
+    master
+      .add(animateHome);
+  }
+}
+
+function animateHome() {
+  const tl = gsap.timeline();
+
+  tl.fromTo('.circle .fas', {
+    opacity: 0
+  }, {
+    duration: 'random(5, 6)',
+    opacity: 'random(0, 0.5)',
+    scale: 0,
+    opacity: 1,
+    rotate: 'random(40deg, -80deg)',
+    y: '-=50',
+    x: 'random(100, -50)',
+    ease: 'back',
+    stagger: {
+      amount: 3,
+      from: 'center',
+      grid: 'auto',
+      repeat: 20,
+    }
+  });
+
+  return tl;
+};
+
+
+init();

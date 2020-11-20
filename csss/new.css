@@ -1,3 +1,28 @@
+#circle-container {
+  position: relative;
+}
+
+#circle-container .circle {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  height: 100vh;
+}
+
+#circle-container .circle .fa-circle {
+  font-size: 50px;
+}
+
+.header-content{
+  overflow-y: hidden;
+} 
+
 .cursor {
   width: 25px;
   height: 25px;
@@ -123,13 +148,13 @@
   /* z-index: -9; */
 }
 
-.heading-right a:hover{
+.heading-right a:hover {
   background-color: #fff;
   color: #222;
   padding: 60px 20px;
-} 
+}
 
-.v1{
+.v1 {
   border-left: 2px solid #82c225;
   margin-left: 50px;
 }
