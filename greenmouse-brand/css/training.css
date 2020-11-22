@@ -1,3 +1,11 @@
+body {
+  background-color: #222;
+}
+
+.content .logo {
+  margin-top: 20px;
+}
+
 .menu-wrap {
   position: fixed;
   top: 0;
@@ -40,7 +48,7 @@
 
 .menu-wrap .hamburger>div {
   position: relative;
-  background-color: #222;
+  background-color: #fff;
   height: 2px;
   width: 100%;
   display: flex;
@@ -201,3 +209,4 @@
 .menu ul ul a:hover {
   color: #82c225;
 }
+
