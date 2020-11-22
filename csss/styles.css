@@ -299,7 +299,7 @@ a.white {
 }
 
 input::placeholder {
-	color: #eee !important;
+	color: #222 !important;
 }
 
 .form-control-select {
