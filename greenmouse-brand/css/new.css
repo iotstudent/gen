@@ -11,6 +11,8 @@
   top: 20;
   left: 0;
   z-index: 100;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .menu-wrap .toggler {
@@ -203,7 +205,7 @@
 }
 
 @media screen and (max-width: 769px) {
-  .gallery__item{
+  .gallery__item {
     height: 100vh;
   }
 }

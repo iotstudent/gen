@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="">
+  <meta name="author" content="greenmouse tech">
+
+  <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+  <meta property="og:site_name" content="" /> <!-- website name -->
+  <meta property="og:site" content="" /> <!-- website link -->
+  <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+  <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+  <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+  <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+  <meta property="og:type" content="article" />
+
+  <!-- Website Title -->
+  <title>Greenmouse Technology</title>
+
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Black&display=swap" rel="stylesheet">
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/fontawesome-all.css" rel="stylesheet">
+  <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link href="csss/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="csss/new.css">
+  <link rel="stylesheet" href="csss/contact.css">
+  <link rel="stylesheet" href="csss/getquote.css">
+
+  <!-- Favicon  -->
+  <link rel="icon" href="images/sp.png">
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top" style="background-color: #0A1B2B;">
+
+  <!-- Preloader -->
+  <div class="spinner-wrapper">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+  <!-- end of preloader -->
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <!-- Text Logo - Use this if you don't have a graphic logo -->
+    <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
+
+    <!-- Image Logo -->
+    <a class="navbar-brand logo-image" href="index.html"><img src="images/green.png" alt="alternative"></a>
+
+    <!-- Mobile Menu Toggle Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-awesome fas fa-bars"></span>
+      <span class="navbar-toggler-awesome fas fa-times"></span>
+    </button>
+    <!-- end of mobile menu toggle button -->
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="./greenmouse-web/index.html">Web Development <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="./greenmouse-mobile/index.html">Mobile App Development</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="./greenmouse-brand/index.html">Brand Identity</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="./greenmouse-training/index.html">Training</a>
+        </li>
+
+        <!-- Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button"
+            aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="about.html"><span class="item-text">About Us</span></a>
+            <div class="dropdown-items-divide-hr"></div>
+            <a class="dropdown-item" href="#"><span class="item-text">Our Work</span></a>
+            <div class="dropdown-items-divide-hr"></div>
+            <a class="dropdown-item" href="#"><span class="item-text">Our Team</span></a>
+            <div class="dropdown-items-divide-hr"></div>
+            <a class="dropdown-item" href="contact.html"><span class="item-text">Contact Us</span></a>
+          </div>
+        </li>
+        <!-- end of dropdown menu -->
+      </ul>
+      <a href="#" class="btn-solid-lg page-scroll">Get a Quote</a>
+    </div>
+  </nav> <!-- end of navbar -->
+  <!-- end of navigation -->
+
+    <!-- Contact -->
+    <div id="contact" class="form-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Request a quote</h3>
+          </div>
+        </div>
+        <div class="row quote">
+          <div class="col-lg-6 left">
+            <form id="contactForm" data-toggle="validator" data-focus="false">
+              <div class="form-group">
+                <input type="text" class="form-control-input" id="cname" placeholder="Enter First Name" required>
+                <!-- <label class="label-control" for="cname">Name</label> -->
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control-input" id="cname" placeholder="Enter Last Name" required>
+                <!-- <label class="label-control" for="cname">Phone Number</label> -->
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control-input" id="cemail" placeholder="Enter Email" required>
+                <!-- <label class="label-control" for="cemail"></label> -->
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group"><br>
+                <select name="courses" class="form-control" id="courses">
+                  <option value="Choose Courses">Select a Project Category</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Web Development">Web Design</option>
+                  <option value="Mobile Development">Mobile Development</option>
+                  <option value="Mobile Development">Software Development</option>
+                  <option value="Mobile Development">Domain Name & Hosting</option>
+                  <option value="Frontend Development">Business Consultancy</option>
+                  <option value="Backend Development">Ecommerce</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="UI/UX Design">UI/UX Design</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select name="project" id="project" class="form-control">
+                  <option value="Select Budget">Select Budget</option>
+                  <option value="₦120,000 - ₦200,000">₦120,000 - ₦200,000</option>
+                  <option value="₦250,000 - ₦450,000">₦250,000 - ₦450,000</option>
+                  <option value="₦500,000 - ₦700,000">₦500,000 - ₦700,000</option>
+                  <option value="₦1,000,000 - ₦2,000,000">₦1,000,000 - ₦2,000,000</option>
+                  <option value="₦2,000,000 - ₦5,000,000">₦2,000,000 - ₦5,000,000</option>
+                  <option value="Above ₦5,000,000">Above ₦5,000,000</option>>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control-textarea" id="cmessage" required>Your message</textarea>
+                <!-- <label class="label-control" for="cmessage">Your message</label> -->
+                <div class="help-block with-errors"></div>
+              </div>
+              
+              <!-- <div class="form-group checkbox">
+                <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree with Evolo's
+                stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms
+                  Conditions</a>
+                <div class="help-block with-errors"></div>
+              </div> -->
+              <div class="form-group">
+                <button type="submit" class="form-control-submit-button">SEND QUOTE</button>
+              </div>
+              <div class="form-message">
+                <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-6 right">
+            <!-- <div class="col-lg-7 ml-auto" data-aos="fade-up" data-aos-delay="100"> -->
+              <h3 class="line-bottom">Frequently asked questions</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                texts. </p>
+              <div class="custom-accordion" id="accordion_1">
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">How much does it cost to build a website ?</button>
+                  </h2>
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div>
+                          <p>The cost of a website can vary depending on various factors, just like the cost of a house may vary,depending on your unique needs. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">How does the payment process work?</button>
+                  </h2>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>The project starts with a 50% deposit. After design sign off and before we move into programming, we collect 25%. Once we have completed and fulfilled our scope, the final 25% is collected and your website is then scheduled for launch.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">How long does it take to build a website?/button>
+                  </h2>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>Our standard websites take approximately 14 days to create. Our E-commerce (online store) websites take approximately 21 days to create. This time will vary from project to project.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">What kind of businesses do you work with?</button>
+                  </h2>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>We work with a broad range of company types [small start-ups, large corporations, nonprofits, B2B, B2C and more] across many business industries [technology, food, apparel, health + beauty, camps, travel, finance, arts, fair trade, and more.</p>
+                          <p>Over the years, we’ve helped businesses improve customer service, market their products, and attract customers. Functionality requests range from basic to advanced. Our team takes the time to get to know your industry, organization and competitors to ensure your site supports all of your goals.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">Do I own my website?</button>
+                  </h2>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>YES! Everything that we build will be 100% owned by you. Most of our clients stay with us for the life of the website. Our team is just irresistible that way. But if for any reason you decide you want to take your site to another hosting service and get another company to service the site, we will happily assist you in making the transition as effortlessly and efficiently as possible. The website is yours after all, and we want you to take it wherever you go.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">Can you help me source photos for my website?</button>
+                  </h2>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>Yes. We will help you source stock photos from sites such as www.crestock.com and www.istock.com.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">What platform do you build your websites on?</button>
+                  </h2>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>We build all of our websites on the open-source Content Management System (CMS) platform called MODX.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">Can you help me update my existing website that another web firm built?</button>
+                  </h2>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>No. We only support websites that we have fully built. We have this policy so that we can 100% stand behind everything
+                          that we craft. There are issues of liability of multiple programmers touching the same code over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">Will you provide a full copy/backup of our site if requested?</button>
+                  </h2>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>Yes and at no cost! You 100% own everything that Eternity creates for you and if requested we will provide a one-time full backup of your website. If additional backups are needed there is a minimal cost for additional backups.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">What is Web Hosting?</button>
+                  </h2>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <div class="accordion-img mr-4">
+                        </div>
+                        <div>
+                          <p>Web hosting is the service of storing data that keeps websites up and running for users. Every single website that is online has a host server, and almost all use a web host to manage that storage. Not all web hosts provide the same level of quality, though. Uptime, and data speed and quantity of transfer are the best measures of a host’s success. You can often pay more to get data transferred in higher quantities, faster. Most web hosts offer unlimited bandwidth and disk space at a speed that is perfectly fine for small-to-moderate sized businesses or individuals. For companies with burdensome websites, they may need to seek out a more advanced web host.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- .accordion-item -->
+              </div>
+            <!-- </div> -->
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" style="background-color: #0A1B2B;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <a href="">
+              <h1 style="color: #fff;">Let's start something wonderful <i class="fas fa-arrow-right"></i></h1>
+            </a>
+          </div>
+        </div>
+        <div class="row second-sec">
+          <div class="col-md-4">
+            <div class="footer-col middle">
+              <h4>ADDRESS</h4>
+              <p style="color: #fff;">Ralex Glass House, 2, Metal Box street, Off Acme Road, Ikeja industrial Estate,
+                Ogba-Ikeja, Lagos State.</p>
+            </div>
+          </div> <!-- end of col -->
+          <div class="col-md-4">
+            <div class="footer-col middle">
+              <h4>CONTACT</h4>
+              <p style="color: #fff;">+234-817-723-5762 <span><a href="http://api.whatsapp.com/send?phone=+2348177235762"
+                    target="_blank"><i class="fab fa-whatsapp"></i></a></span></p>
+              <p style="color: #fff;">+234-806-378-6241</p>
+            </div>
+          </div> <!-- end of col -->
+          <div class="col-md-4">
+            <div class="footer-col last">
+              <h6><a href="">info@greenmousetech.com</a></h6>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                  <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                  <i class="fab fa-instagram fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                  <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                </a>
+              </span>
+            </div>
+            <div class="links">
+              <a href="about.html">
+                <p>About</p>
+              </a>
+              <a href="">
+                <p>Our Team</p>
+              </a>
+              <a href="contact.html">
+                <p>Contact</p>
+              </a>
+            </div>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
+   
+    <!-- Copyright -->
+    <div class="copyright" style="background-color: #0A1B2B;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">Copyright © 2020 <a href="https://greenmousetech.com" style="color: #82c225;">Greenmouse
+                Technologies</a> - All Rights Reserved</p>
+          </div> <!-- end of col -->
+        </div> <!-- enf of row -->
+      </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+    
+    
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="/scripts.js"></script>
+    </body>
+    
+    </html>

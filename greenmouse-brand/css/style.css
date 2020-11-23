@@ -650,7 +650,7 @@ ul, ol {
 
 .home__room__item a {
 	font-size: 18px;
-	color: #82c225;
+	color: #fff;
 	font-family: "Barlow Condensed", sans-serif;
 	position: relative;
 	padding: 4px 0;
@@ -705,7 +705,7 @@ ul, ol {
 }
 
 .home__room__title h4 {
-	color: #222;
+	color: #fff;
 	margin-bottom: 5px;
 }
 
