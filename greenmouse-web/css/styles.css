@@ -1604,7 +1604,7 @@ a:hover.back-to-top {
 		margin-top: 0;
 	}
 	.navbar-custom .nav-item .nav-link {
-		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+		padding: 0.25rem 0.9rem 0.25rem 0.75rem;
 		color: #FFF !important;
 		font-family: 'Poppins', serif;
 	}

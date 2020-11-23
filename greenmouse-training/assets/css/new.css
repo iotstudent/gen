@@ -1,0 +1,148 @@
+.make-customer-area .right {
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.make-customer-area .left {
+  margin-top: 50px;
+}
+
+.header-btn {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.icons {
+  margin-top: 50px;
+}
+
+.icons img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.icons .btn {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.images::before {
+  background-image: none;
+  position: absolute;
+  content: "";
+  top: -59px;
+  right: -11px;
+  max-width: 645px;
+  z-index: -2;
+  height: 479px;
+  width: 500px;
+}
+
+.make-customer-area .lefts {
+  margin-left: -50px;
+}
+
+.make-customer-area .lefts img {
+  width: 500px;
+}
+
+.image::before {
+  background-image: none;
+  position: absolute;
+  content: "";
+  top: -59px;
+  right: -11px;
+  max-width: 645px;
+  z-index: -2;
+  height: 479px;
+  width: 500px;
+}
+
+.image {
+  margin-top: -150px;
+}
+
+.customer-captions .caption-details {
+  /* width: 80%; */
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 40px 0px 0px 40px;
+  margin-top: 100px;
+  box-shadow: 1.395px 19.951px 38px 19.95px rgba(0, 0, 0, 0.05);
+  /* text-align: center; */
+}
+
+.customer-captions h2 {
+  font-size: 36px !important;
+  font-weight: bold;
+}
+
+.customer-captions .caption-details h3 {
+  color: #82c225;
+  font-weight: bold;
+}
+
+.customer-captions .caption-details h4 {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.customer-captions .caption-details .btn {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.customer-captions .caption-details p {
+  padding-bottom: 10px;
+}
+
+.monthly .left {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.monthly h2 {
+  margin-top: -70px;
+}
+
+.service-area {
+  margin-top: -100px;
+}
+
+.service-area .col-xl-4 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.service-area .col-xl-4 i {
+  background-color: #eee;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.service-area .col-xl-4>div {
+  margin-left: 30px;
+  margin-top: -5px;
+}
+
+@media screen and (max-width: 769px) {}
+
+@media screen and (max-width: 420px) {
+  .hero {
+    margin-top: -50px;
+  }
+  .make-customer-area .right {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .make-customer-area .lefts {
+    margin-left: -100px;
+  }
+  .icons .btn {
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 100px;
+  }
+}
