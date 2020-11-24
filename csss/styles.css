@@ -108,12 +108,12 @@ h6 {
 
 a {
 	color: #fff;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 a:hover {
 	color: #626262;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 a.turquoise {
@@ -279,8 +279,8 @@ a.white {
 	padding-left: 1.3125rem;
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
-	background-color: transparent;
-	color: #eee;
+	/* background-color: transparent; */
+	color: #000;
 	border-color: #82c225;
 	font: 400 0.875rem/1.875rem "Muli", sans-serif;
 	transition: all 0.2s;
@@ -294,7 +294,7 @@ a.white {
 }
 
 .form-control-textarea {
-	background-color: transparent !important;
+	/* background-color: transparent !important; */
 	border-color: #84C225 !important;
 }
 
@@ -803,7 +803,7 @@ input[type='checkbox'] {
 
 .header {
 	background-color: #0A1B2B;
-	height: 100vh;
+	height: 200vh;
 }
 
 .header .header-content {
@@ -1923,7 +1923,7 @@ a:hover.back-to-top {
 		/* background: url('../images/header-background.jpg') center center no-repeat; */
 		background-size: cover;
 		background-color: #0A1B2B;
-		height: 100vh;
+		height: 200vh;
 	}
 	.header .header-content {
 		padding-top: 11.5rem;

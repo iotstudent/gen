@@ -16,13 +16,85 @@ body {
 }
 
 .header h1 {
-  font-family: 'Poppins', serif;
+  font-family: 'Archivo black', serif;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 40px;
+  line-height: 1.2;
 }
 
 .header p {
   color: #222;
+  font-size: 20px;
+}
+
+.services {
+  padding-bottom: 100px;
+}
+
+.services img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.services h5 {
+  color: #ccc;
+}
+
+.services h4 {
+  font-size: 30px;
+  color: #fff;
+  padding: 20px 210px;
+}
+
+.service-content {
+  margin-top: 30px;
+}
+
+/* workflow */
+
+.workflow {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.workflow img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.workflow h5 {
+  color: #ccc;
+}
+
+.workflow h4 {
+  font-size: 30px;
+  color: #fff;
+  padding: 20px 210px;
+}
+
+.workflow .text-left {
+  margin-top: 100px;
+}
+
+.workflow-content {
+  display: flex;
+}
+
+.workflow-content div {
+  margin-left: 30px;
+}
+
+.workflow-content h6{
+  font-size: 26px;
+}
+.workflow-content .number{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  margin-top: 10px;
 }
 
 .screen {
@@ -50,6 +122,11 @@ body {
 
 .fa-square, .fa-circle, .fa-star {
   color: rgb(88, 86, 86);
+}
+
+.image-container {
+  margin-top: -100px;
+  margin-left: -100px;
 }
 
 .basic1-img {
@@ -131,7 +208,7 @@ body {
     margin-top: -360px;
     margin-bottom: -60px;
   }
-  .bases{
+  .bases {
     margin-top: -200px;
   }
   .basic-1 .video-play-button {
@@ -149,10 +226,10 @@ body {
     -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
   }
-  .counter{
+  .counter {
     margin-top: -150px;
   }
-  #contact{
+  #contact {
     margin-top: -130px;
     margin-bottom: -100px;
   }
@@ -161,5 +238,4 @@ body {
     margin-top: -20px;
     margin-left: 0px;
   }
-
 }
