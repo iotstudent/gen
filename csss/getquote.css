@@ -122,18 +122,27 @@ select {
   color: #fff;
 }
 
-.get {
+/* .get {
   margin-left: 90px;
+} */
+
+#courses {
+  margin-top: -20px;
+}
+
+.label {
+  font-size: 1.09rem;
+  margin-left: -5px;
 }
 
 @media screen and (max-width: 769px) {
   .quote .right {
     margin-top: 40px;
   }
-  .get {
+  /* .get {
     margin-left: 0px;
-  }
-  .second-sec{
+  } */
+  .second-sec {
     margin-top: 40px;
   }
 }

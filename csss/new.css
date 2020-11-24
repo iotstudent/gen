@@ -48,7 +48,7 @@
 }
 
 #header {
-  height: 130vh;
+  height: 135vh;
   padding-bottom: 200px;
 }
 
@@ -131,6 +131,8 @@
 .about .p-heading {
   font-family: 'Muli', sans-serif;
   font-size: 17px;
+  color: #222;
+  font-weight: 650;
 }
 
 .about h2 {
@@ -159,10 +161,10 @@
 }
 
 .par {
-  color: rgb(83, 82, 82);
+  color: #82c225;
   font-size: 28px;
-  font-family: 'Archivo Black', sans-serif;
-  margin-top: 20px;
+  font-family: 'Bree Serif', sans-serif;
+  margin-top: 10px;
 }
 
 .img3 {
@@ -366,7 +368,7 @@
     margin-top: 20px;
   }
   #header {
-    height: 200vh;
+    height: 120vh;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -398,10 +400,6 @@
     padding-left: 60px;
     padding-right: 60px;
   }
-  /* .client img {
-    width: 50px;
-    margin-bottom: 40px;
-  } */
   .links {
     flex-direction: column;
     margin-left: 0px;
@@ -431,11 +429,6 @@
   .client .col-lg-7 {
     margin-top: 30px;
   }
-  /* .clients {}
-  .client .col-lg-7 {
-    margin-left: 0;
-    margin-top: 30px;
-  } */
   .footer {
     padding-left: 60px;
     padding-right: 60px;
@@ -462,7 +455,10 @@
     margin-left: 0px;
   }
   .client .crowd, .client .petro, .client .wit {
-    margin-left: 100px;
+    margin-left: 150px;
+  }
+  .client .near, .client .cbt, .client .cash, .client .qqq {
+    margin-left: 60px;
   }
 }
 
@@ -471,7 +467,7 @@
     font-size: 26px;
   }
   #header {
-    height: 150vh;
+    height: 120vh;
     padding-left: 50px;
     padding-right: 25px;
   }
@@ -486,6 +482,9 @@
   }
   .client .near, .client .cbt, .client .cash, .client .qqq {
     margin-left: 60px;
+  }
+  .client .crowd, .client .petro, .client .wit {
+    margin-left: 100px;
   }
   .second {
     margin-left: -60px;

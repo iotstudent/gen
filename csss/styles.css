@@ -803,7 +803,7 @@ input[type='checkbox'] {
 
 .header {
 	background-color: #0A1B2B;
-	height: 200vh;
+	height: 150vh;
 }
 
 .header .header-content {
@@ -1923,7 +1923,7 @@ a:hover.back-to-top {
 		/* background: url('../images/header-background.jpg') center center no-repeat; */
 		background-size: cover;
 		background-color: #0A1B2B;
-		height: 200vh;
+		height: 150vh;
 	}
 	.header .header-content {
 		padding-top: 11.5rem;
