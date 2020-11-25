@@ -244,6 +244,11 @@
   font-family: 'Archivo Black', sans-serif;
 }
 
+.gallery-img img:hover {
+  
+  /* background: url(../assets/img/gallery/studio-1.png); */
+}
+
 .clients {
   background-color: #E7FBEE;
   padding: 150px 0;
