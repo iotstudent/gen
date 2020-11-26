@@ -165,7 +165,7 @@
           }
         },
         "color": {
-          "value": "#024ADD"
+          "value": "#82c225"
         },
         "shape": {
           "type": "circle",
