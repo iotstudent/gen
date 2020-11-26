@@ -67,6 +67,103 @@
 
   <!-- Favicon  -->
   <link rel="icon" href="images/sp.png">
+
+  <style>
+    .scroll-up {
+      height: 100px;
+      overflow: hidden;
+      position: relative;
+    }
+  
+    .scroll-up .inner {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      line-height: 50px;
+      text-align: center;
+      /* Starting position */
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+      /* Apply animation to this element */
+      -moz-animation: scroll-up 15s linear infinite;
+      -webkit-animation: scroll-up 15s linear infinite;
+      animation: scroll-up 15s linear infinite;
+    }
+    .scroll-up .inner1 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      line-height: 50px;
+      text-align: center;
+      /* Starting position */
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+      /* Apply animation to this element */
+      -moz-animation: scroll-up 15s linear infinite;
+      -webkit-animation: scroll-up 15s linear infinite;
+      animation: scroll-up 15s linear infinite;
+    }
+    .scroll-up .inner2 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      line-height: 50px;
+      text-align: center;
+      /* Starting position */
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+      /* Apply animation to this element */
+      -moz-animation: scroll-up 15s linear infinite;
+      -webkit-animation: scroll-up 15s linear infinite;
+      animation: scroll-up 15s linear infinite;
+    }
+  
+    /* Move it (define the animation) */
+    @-moz-keyframes scroll-up {
+      0% {
+        -moz-transform: translateY(100%);
+      }
+  
+      100% {
+        -moz-transform: translateY(-100%);
+      }
+    }
+  
+    @-webkit-keyframes scroll-up {
+      0% {
+        -webkit-transform: translateY(100%);
+      }
+  
+      100% {
+        -webkit-transform: translateY(-100%);
+      }
+    }
+  
+    @keyframes scroll-up {
+      0% {
+        -moz-transform: translateY(100%);
+        /* Browser bug fix */
+        -webkit-transform: translateY(100%);
+        /* Browser bug fix */
+        transform: translateY(100%);
+      }
+  
+      100% {
+        -moz-transform: translateX(-100%);
+        /* Browser bug fix */
+        -webkit-transform: translateY(-100%);
+        /* Browser bug fix */
+        transform: translateY(-100%);
+      }
+    }
+  </style>
+
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
@@ -243,17 +340,17 @@
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-8">
             <h5>Brand Identity</h5>
             <p>We sketch, create, design professional logos and brand identities for clients.</p>
-            <a href="#" class="link" style="color: #222;">Learn More</a>
+            <a href="#" class="link" style="color: #82c225;">Learn More <i class="fas fa-arrow-right"></i></a>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-9">
             <h5>Web Developement</h5>
             <p>We deliver responsive and functional website designs, enabling our clients to showcase their products</p>
-            <a href="#" class="link" style="color: #222;">Learn More</a>
+            <a href="#" class="link" style="color: #82c225;">Learn More <i class="fas fa-arrow-right"></i></a>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-10">
             <h5>Mobile App Development</h5>
             <p>We create Mobile Application for all users both Iphone and Android Users</p>
-            <a href="#" class="link" style="color: #222;">Learn More</a>
+            <a href="#" class="link" style="color: #82c225;">Learn More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
   
@@ -332,6 +429,12 @@
   </div>
   <!-- Gallery img End-->
 
+  <!-- <div class="scroll-up">
+    <div class="inner">
+      <img src="images/nlpc.png" alt="Swimming fish">
+    </div>
+  </div> -->
+
   <!-- client -->
   <div class="clients">
     <div class="container client">
@@ -347,7 +450,7 @@
               <div class="col-4">
                 <img src="images/14.png" class="qqq" alt="logo">
               </div>
-              <div class="col-4">
+              <div class="col-4 inner1">
                 <img src="images/18.png" class="wit"  alt="logo">
               </div>
               <div class="col-4">
