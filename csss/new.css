@@ -127,7 +127,7 @@
 
 .about {
   margin-top: 50px;
-  padding-bottom: 100px; 
+  padding-bottom: 100px;
 }
 
 .about .p-heading {
@@ -179,10 +179,12 @@
 .services .col-lg-9 {
   margin-top: 40px;
 }
-.services p{
+
+.services p {
   margin-bottom: 0;
 }
-.services .link{
+
+.services .link {
   font-size: 16px;
 }
 
@@ -281,8 +283,8 @@
   font-family: 'Archivo Black', sans-serif;
 }
 
-.gallery-img img:hover {
-  /* background: url(../assets/img/gallery/studio-1.png); */
+.gallery-area {
+  margin-top: 50px;
 }
 
 .clients {
@@ -467,10 +469,13 @@
   }
   .client .col-lg-4 {
     padding-left: 70px;
-    padding-right: 40px;
+    /* padding-right: -50px; */
   }
   .client .col-lg-7 {
     margin-top: 30px;
+  }
+  .inner #wish {
+    margin-left: 45px;
   }
   .footer {
     padding-left: 60px;
@@ -502,6 +507,24 @@
   }
   .client .near, .client .cbt, .client .cash, .client .qqq {
     margin-left: 60px;
+  }
+  .inner #near {
+    margin-left: 45px;
+  }
+  .inner #cbt {
+    margin-left: -75px;
+  }
+  .inner #pac {
+    margin-left: 45px;
+  }
+  .inner #cash {
+    margin-left: -70px;
+  }
+  .inner #wit {
+    margin-left: 45px;
+  }
+  .inner #nlpc {
+    margin-left: -70px;
   }
 }
 

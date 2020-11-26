@@ -14,6 +14,12 @@ body {
 .site-footer {
   margin-bottom: 0;
 }
+#nav-tab{
+  margin-top: 100px;
+}
+.nav-tabs a {
+  color: #fff;
+}
 
 @media screen and (max-width: 769px) {
   .site-footer img {
