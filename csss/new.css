@@ -64,7 +64,7 @@
 
 .header-footer p {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .header-footer .left {
@@ -115,9 +115,10 @@
 }
 
 .slide-text marquee {
-  font-size: 60px;
+  font-size: 50px;
   padding-bottom: 30px;
   padding-top: 100px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .slide-text .maerquee2 {
@@ -129,18 +130,33 @@
 }
 
 .about .p-heading {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 17px;
   color: #222;
-  font-weight: 650;
+  font-weight: 300;
 }
 
 .about h2 {
   margin-top: -60px;
 }
 
+#request h1 {
+  color: #eee;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+#request p, #request ul li {
+  color: #eee;
+  font-size: 20px;
+  line-height: 1.28;
+}
+
+#request ul li {
+  line-height: 1.5;
+}
+
 .services h5 {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 100;
 }
 
@@ -163,7 +179,7 @@
 .par {
   color: #82c225;
   font-size: 28px;
-  font-family: 'Bree Serif', sans-serif;
+  font-family: 'Rubik', sans-serif;
   margin-top: 10px;
 }
 
@@ -245,7 +261,6 @@
 }
 
 .gallery-img img:hover {
-  
   /* background: url(../assets/img/gallery/studio-1.png); */
 }
 
@@ -303,7 +318,7 @@
 } */
 
 .footer p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Rubik', sans-serif;
   font-weight: 100;
   line-height: 2rem;

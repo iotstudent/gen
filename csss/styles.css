@@ -53,15 +53,15 @@ body, html {
 
 body, p {
 	color: #626262;
-	font: 400 0.875rem/1.375rem "Muli", sans-serif;
+	font: 400 0.875rem/1.375rem "Rubik", sans-serif;
 }
 
 .p-large {
-	font: 400 1rem/1.5rem "Muli", sans-serif;
+	font: 400 1rem/1.5rem "Rubik", sans-serif;
 }
 
 .p-small {
-	font: 400 0.75rem/1.25rem "Muli", sans-serif;
+	font: 400 0.75rem/1.25rem "Rubik", sans-serif;
 }
 
 .p-heading {
@@ -78,32 +78,32 @@ body, p {
 
 h1 {
 	color: #393939;
-	font: 700 3rem/3.5rem "Muli", sans-serif;
+	font: 700 3rem/3.5rem "Rubik", sans-serif;
 }
 
 h2 {
 	color: #393939;
-	font: 700 2rem/2.75rem "Muli", sans-serif;
+	font: 700 2rem/2.75rem "Rubik", sans-serif;
 }
 
 h3 {
 	color: #393939;
-	font: 700 1.75rem/2rem "Muli", sans-serif;
+	font: 700 1.75rem/2rem "Rubik", sans-serif;
 }
 
 h4 {
 	color: #82c225;
-	font: 700 1.375rem/1.875rem "Muli", sans-serif;
+	font: 700 1.375rem/1.875rem "Rubik", sans-serif;
 }
 
 h5 {
 	color: #393939;
-	font: 700 1.125rem/1.625rem "Muli", sans-serif;
+	font: 700 1.125rem/1.625rem "Rubik", sans-serif;
 }
 
 h6 {
 	color: #393939;
-	font: 700 1rem/1.5rem "Muli", sans-serif;
+	font: 700 1rem/1.5rem "Rubik", sans-serif;
 }
 
 a {
@@ -125,11 +125,11 @@ a.white {
 }
 
 .testimonial-text {
-	font: italic 400 1rem/1.5rem "Muli", sans-serif;
+	font: italic 400 1rem/1.5rem "Rubik", sans-serif;
 }
 
 .testimonial-author {
-	font: 700 1rem/1.5rem "Muli", sans-serif;
+	font: 700 1rem/1.5rem "Rubik", sans-serif;
 }
 
 .turquoise {
@@ -148,7 +148,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: #82c225;
 	color: #fff;
-	font: 700 0.75rem/0 "Muli", sans-serif;
+	font: 700 0.75rem/0 "Rubik", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -166,7 +166,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: #82c225;
 	color: #fff;
-	font: 700 0.9rem/0 "Muli", sans-serif;
+	font: 700 0.9rem/0 "Rubik", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -184,7 +184,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #82c225;
-	font: 700 0.75rem/0 "Muli", sans-serif;
+	font: 700 0.75rem/0 "Rubik", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -202,7 +202,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #82c225;
-	font: 700 0.75rem/0 "Muli", sans-serif;
+	font: 700 0.75rem/0 "Rubik", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -220,7 +220,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #82c225;
-	font: 700 0.625rem/0 "Muli", sans-serif;
+	font: 700 0.625rem/0 "Rubik", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -250,7 +250,7 @@ a.white {
 	left: 1.375rem;
 	color: #626262;
 	opacity: 1;
-	font: 400 0.875rem/1.375rem "Muli", sans-serif;
+	font: 400 0.875rem/1.375rem "Rubik", sans-serif;
 	cursor: text;
 	transition: all 0.2s ease;
 }
@@ -282,7 +282,7 @@ a.white {
 	/* background-color: transparent; */
 	color: #000;
 	border-color: #82c225;
-	font: 400 0.875rem/1.875rem "Muli", sans-serif;
+	font: 400 0.875rem/1.875rem "Rubik", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none;
 	/* border-top-style: hidden;
@@ -354,7 +354,7 @@ select::-ms-expand {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #626262;
-	font: 400 0.875rem/1.75rem "Muli", sans-serif;
+	font: 400 0.875rem/1.75rem "Rubik", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -369,7 +369,7 @@ select::-ms-expand {
 }
 
 .checkbox {
-	font: 400 0.75rem/1.25rem "Muli", sans-serif;
+	font: 400 0.75rem/1.25rem "Rubik", sans-serif;
 }
 
 input[type='checkbox'] {
@@ -393,7 +393,7 @@ input[type='checkbox'] {
 	border-radius: 1.5rem;
 	background-color: #82c225;
 	color: #fff;
-	font: 700 0.75rem/1.75rem "Muli", sans-serif;
+	font: 700 0.75rem/1.75rem "Rubik", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
 }
@@ -409,7 +409,7 @@ input[type='checkbox'] {
 	display: block;
 	margin-bottom: 0;
 	color: #626262;
-	font: 400 1.125rem/1rem "Muli", sans-serif;
+	font: 400 1.125rem/1rem "Rubik", sans-serif;
 }
 
 .help-block.with-errors .list-unstyled {
@@ -678,7 +678,7 @@ input[type='checkbox'] {
 .navbar-custom {
 	background-color: #0A1B2B;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 600 0.875rem/0.875rem "Muli", sans-serif;
+	font: 600 0.875rem/0.875rem "Rubik", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -688,7 +688,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-text {
-	font: 600 2rem/1.5rem "Muli", sans-serif;
+	font: 600 2rem/1.5rem "Rubik", sans-serif;
 	color: #fff;
 	text-decoration: none;
 }
@@ -750,7 +750,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 600 0.875rem/0.875rem "Muli", sans-serif;
+	font: 300 0.875rem/0.875rem "Rubik", sans-serif;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
@@ -1616,6 +1616,7 @@ input[type='checkbox'] {
 }
 
 .copyright .p-small {
+	font-family: 'Rubik', sans-serif;
 	padding-top: 1.375rem;
 	border-top: 1px solid #c4d8dc;
 	opacity: 0.7;
@@ -1843,6 +1844,8 @@ a:hover.back-to-top {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
 		color: #fff;
 		opacity: 0.8;
+		font-weight: 300;
+		font-family: 'Rubik', sans-serif;
 	}
 	.navbar-custom .nav-item .nav-link:hover, .navbar-custom .nav-item .nav-link.active {
 		color: #fff;
