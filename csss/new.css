@@ -157,22 +157,34 @@
   line-height: 1.5;
 }
 
+.services {
+  margin-top: 20px;
+}
+
 .services h5 {
   font-family: 'Rubik', sans-serif;
   font-weight: 100;
 }
 
-.services .col-lg-10 {
-  margin-left: 100px;
+.info-graphics {
+  width: 95%;
+  z-index: 0;
 }
 
-.services .col-lg-8 {
-  margin-left: 240px;
+.services .col-lg-10 {
+  margin-top: 20px;
 }
+
+.services .col-lg-9 {
+  margin-top: 20px;
+}
+
+/* 
+
 
 .services .col-lg-6 {
   margin-left: 440px;
-}
+} */
 
 .second-sec {
   margin-top: 50px;
