@@ -1,9 +1,10 @@
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.6;
   background: #ffffff;
   overflow-x: hidden;
   font-size: 16px;
+  color: #fff;
 }
 
 body:before {
@@ -863,7 +864,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .untree_co-section .subheading {
   font-size: 18px;
-  font-family: "Roboto Mono", monospace;
   font-family: 'Rubik', sans-serif;
   font-weight: 200;
 }
