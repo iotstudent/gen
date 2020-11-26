@@ -1119,9 +1119,9 @@ mobile menu css
   background: #004AFF;
 }
 
-.slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
-  /* text-transform: capitalize; */
-}
+/* .slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
+  text-transform: capitalize;
+} */
 
 /*==========================================================================
 homePage version 2 css
