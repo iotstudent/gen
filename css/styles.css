@@ -1334,8 +1334,8 @@ input[type='checkbox'] {
 /**************************/
 
 .counter {
-	padding-top: 6.5rem;
-	padding-bottom: 5.375rem;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
 	background-color: #0A1B2B;
 	text-align: center;
 }
@@ -1864,8 +1864,8 @@ a:hover.back-to-top {
 	/* end of download */
 	/* Statistics */
 	.counter {
-		padding-top: 6rem;
-		padding-bottom: 4.5rem;
+		padding-top: 0.1rem;
+		padding-bottom: 0.1rem;
 	}
 	.counter #counter .cell {
 		width: 8rem;

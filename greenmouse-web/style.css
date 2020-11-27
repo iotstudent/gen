@@ -59,7 +59,7 @@ css list:
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 body {
-  background: #0A1B2B;
+  /* background: #0A1B2B; */
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #cbe5ff;
@@ -1025,8 +1025,13 @@ community area css
 footer area css
 ======================*/
 
+.footera-area {
+  padding-bottom: 40px !important;
+}
+
 .single-footer .logo-area img {
   width: 90px;
+  margin-bottom: 20px;
 }
 
 .single-footer li a {
@@ -1059,6 +1064,16 @@ input::placeholder {
 .single-footer li a:hover {
   padding-left: 5px;
   color: #82c225;
+}
+
+.address {
+  margin-top: 10px;
+}
+
+.socials i {
+  padding-right: 20px;
+  font-size: 30px;
+  color: #fff;
 }
 
 /*===================
