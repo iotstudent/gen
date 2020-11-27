@@ -29,7 +29,7 @@ body.offcanvas-menu:before {
 }
 
 .text-black {
-  color: #000000 !important;
+  color: #fff !important;
 }
 
 .text-secondary {
@@ -79,7 +79,7 @@ a.text-primary:hover {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-family: "Mulish", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #dddde6;
 }
 

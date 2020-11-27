@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: stretch;
   gap: 20px;
-  height: 150vh;
+  height: 120vh;
 }
 
 #circle-container .circle .fa-circle {
@@ -48,7 +48,7 @@
 }
 
 #header {
-  height: 150vh;
+  height: 120vh;
   padding-bottom: 200px;
 }
 
@@ -718,10 +718,6 @@ community area css
     display: none;
   }
   .community-area {
-    position: relative;
-    z-index: 2;
-    background: #0A1B2B;
-    overflow: hidden;
     margin-left: 0px;
     margin-bottom: 1px;
     padding: 100px 0;
