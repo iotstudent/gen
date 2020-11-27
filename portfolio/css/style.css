@@ -851,6 +851,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .untree_co-section {
   padding: 4rem 0;
+  padding-bottom: 0rem !important;
 }
 
 .untree_co-section .heading, .untree_co-section .subheading {
