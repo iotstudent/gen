@@ -44,7 +44,7 @@
     }
     .logo-area img {
         width: 90px;
-        height: 25px;
+        /* height: 25px; */
     }
     .custom-progressBar::before {
         bottom: -80%;
@@ -340,7 +340,7 @@
     }
     .logo-area img {
         width: 80px;
-        height: 25px;
+        /* height: 25px; */
     }
     a.gradient-btn {
         font-size: 6px;
@@ -771,7 +771,7 @@
     }
     .logo-area img {
         width: 90px;
-        height: 30px;
+        /* height: 30px; */
     }
     .slicknav_menu {
         padding-top: 8px;

@@ -53,15 +53,15 @@ body, html {
 
 body, p {
 	color: #626262;
-	font: 400 0.875rem/1.375rem "Rubik", sans-serif;
+	font: 100 0.875rem/1.375rem "Rubik", sans-serif;
 }
 
 .p-large {
-	font: 400 1rem/1.5rem "Rubik", sans-serif;
+	font: 100 1rem/1.5rem "Rubik", sans-serif;
 }
 
 .p-small {
-	font: 400 0.75rem/1.25rem "Rubik", sans-serif;
+	font: 100 0.75rem/1.25rem "Rubik", sans-serif;
 }
 
 .p-heading {

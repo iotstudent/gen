@@ -48,7 +48,7 @@
 }
 
 #header {
-  height: 120vh;
+  height: 110vh;
   padding-bottom: 200px;
 }
 
@@ -141,18 +141,18 @@
 }
 
 #request h1 {
-  color: #eee;
+  color: #222;
   font-family: 'Archivo Black', sans-serif;
 }
 
 #request p, #request ul li {
-  color: #eee;
+  color: #222;
   font-size: 28px;
   line-height: 1.28;
 }
 
 #request ul li {
-  color: #eee;
+  color: #222;
   font-size: 28px;
   line-height: 1.5;
 }
@@ -183,7 +183,7 @@
 }
 
 .services .link {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .second-sec {
@@ -251,14 +251,14 @@
 }
 
 .head-right a:hover {
-  background-color: #222;
+  background-color: #222 !important;
   color: #fff;
   padding: 60px 20px;
 }
 
 .heading-right a:hover {
   background-color: #fff;
-  color: #222;
+  color: #222 !important;
   padding: 60px 20px;
 }
 
@@ -639,7 +639,7 @@ community area css
     margin-top: 20px;
   }
   #header {
-    height: 120vh;
+    height: 100vh;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -739,6 +739,12 @@ community area css
 }
 
 @media screen and (max-width: 600px) {
+  .slide-text marquee {
+    display: none;
+  }
+  .info-graphics{
+    display: none;
+  }
   .bsn, .times, .wtc, .bsn {
     display: none;
   }
@@ -778,7 +784,7 @@ community area css
     font-size: 26px;
   }
   #header {
-    height: 120vh;
+    height: 100vh;
     padding-left: 50px;
     padding-right: 25px;
   }
