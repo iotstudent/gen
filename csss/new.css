@@ -62,7 +62,7 @@
   text-decoration: none;
 }
 
-.header-footer p {
+.second-sec p {
   color: #fff;
   font-size: 16px;
 }
@@ -117,7 +117,9 @@
   font-size: 50px;
   padding-bottom: 80px;
   padding-top: 100px;
-  font-family: 'Rubik', sans-serif;
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 .slide-text .maerquee2 {
@@ -130,7 +132,8 @@
 }
 
 .about .p-heading {
-  font-family: 'Rubik', sans-serif;
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   color: #222;
   font-weight: 300;
@@ -162,7 +165,8 @@
 }
 
 .services h5 {
-  font-family: 'Rubik', sans-serif;
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .info-graphics {
@@ -180,10 +184,12 @@
 
 .services p {
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .services .link {
   font-size: 14px;
+  font-weight: 400;
 }
 
 .second-sec {
@@ -193,7 +199,8 @@
 .par {
   color: #82c225;
   font-size: 28px;
-  font-family: 'Rubik', sans-serif;
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   margin-top: 10px;
 }
 
@@ -264,7 +271,15 @@
 
 .v1 {
   border-left: 2px solid #82c225;
-  margin-left: 50px;
+  margin-left: 200px;
+}
+
+.second-sec .right {
+  margin-left: -150px;
+}
+
+.second-sec .right button {
+  margin-left: -150px;
 }
 
 .sect h1 {
@@ -275,7 +290,7 @@
 }
 
 .gallery-area {
-  margin-top: 50px;
+  margin-top: 130px;
 }
 
 .clients {
@@ -286,9 +301,9 @@
 .client p {
   color: #111;
   font-size: 40px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .h2 {
@@ -310,11 +325,30 @@ community area css
 .community-area {
   position: relative;
   z-index: 2;
-  background: #fff;
+  background: none;
   overflow: hidden;
   margin-left: -150px;
   margin-bottom: 1px;
   padding: 100px 0;
+  /* height: 400px; */
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.video-bg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: -10;
+  width: 100%;
+}
+
+/* .video {
+  background: rgba(0, 0, 0, 0.7);
+} */
+
+.community-area .container {
+  /* background: rgba(0, 0, 0, 0.7); */
+  /* padding: 50px; */
 }
 
 .community-area:before {
@@ -383,24 +417,25 @@ community area css
   line-height: 120px;
   font-size: 40px;
   box-shadow: 0px 30px 60px 0px rgba(14, 13, 13, 0.26);
+  font-weight: 300;
 }
 
 .single-community .counter-value {
-  background: #fff;
+  background: transparent;
   border: none;
 }
 
 .single-community .counter-value {
-  background: #0e76a8;
+  background: transparent;
 }
 
 .single-community a.dribbble i {
-  background: #fff;
+  background: transparent;
   border: none;
 }
 
 .single-community a.github i {
-  background: #fff;
+  background: transparent;
   border: none;
 }
 
@@ -413,7 +448,7 @@ community area css
 }
 
 .single-community a.twitter i {
-  background: #fff;
+  background: transparent;
   border: none;
 }
 
@@ -424,7 +459,7 @@ community area css
 .counter-info {
   color: #82c225;
   font-size: 26px;
-  /* font-weight: 300; */
+  font-weight: 300;
   line-height: 1;
   text-align: justify;
 }
@@ -570,8 +605,9 @@ community area css
 
 .footer p {
   font-size: 16px;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 100;
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   line-height: 2rem;
 }
 
@@ -608,6 +644,7 @@ community area css
 
 .copyright a {
   text-decoration: none;
+  font-weight: 300;
 }
 
 .icon-bar {
@@ -736,13 +773,16 @@ community area css
     border-radius: 50%;
     border: 1px solid transparent;
   }
+  .second-sec .right {
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .slide-text marquee {
     display: none;
   }
-  .info-graphics{
+  .info-graphics {
     display: none;
   }
   .bsn, .times, .wtc, .bsn {
@@ -818,9 +858,9 @@ community area css
     margin-left: -130px;
     margin-top: 20px;
   }
-  .header-footer .right {
+  /* .header-footer .right {
     margin-top: -60px;
-  }
+  } */
   .basic-3 .video-play-button:before {
     width: 3rem;
     height: 3rem;

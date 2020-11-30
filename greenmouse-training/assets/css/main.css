@@ -31,14 +31,14 @@
 	color:$theme-color;
 	
 */
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Noto+Serif:400,400i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Noto+Serif:400,400i,700&display=swap");
 /* line 86, C:/Users/SPN Graphics/Desktop/hotel_up/Hotel_HTML/assets/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
   color: #dca73a !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -144,7 +144,7 @@
 /*----------------------------------------*/
 /* line 7, C:/Users/SPN Graphics/Desktop/hotel_up/Hotel_HTML/assets/scss/_common.scss */
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -299,7 +299,7 @@ p {
   line-height: 24px;
   color: #778090;
   margin-bottom: 15px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* line 119, C:/Users/SPN Graphics/Desktop/hotel_up/Hotel_HTML/assets/scss/_common.scss */
@@ -2858,7 +2858,7 @@ label {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* line 33, C:/Users/SPN Graphics/Desktop/hotel_up/Hotel_HTML/assets/scss/_headerMenu.scss */
@@ -3452,7 +3452,7 @@ label {
   font-size: 20px;
   padding-right: 69px;
   margin-bottom: 30px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -3857,7 +3857,7 @@ label {
 .single-room .room-caption .per-night span u {
   float: left;
   font-size: 14px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
@@ -4265,7 +4265,7 @@ label {
 .blog-area .single-blog .blog-caption .blog-cap-top ul li {
   color: #c7c7c7;
   font-size: 14px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* line 40, C:/Users/SPN Graphics/Desktop/hotel_up/Hotel_HTML/assets/scss/_blog.scss */
@@ -4278,7 +4278,7 @@ label {
 .blog-area .single-blog .blog-caption .blog-cap-mid p a {
   color: #444444;
   font-size: 18px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 28px;
   margin-bottom: 30px;
 }
@@ -5904,7 +5904,7 @@ label {
   color: #dca73a !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -5994,7 +5994,7 @@ button {
 
 /* line 37, C:/Users/SPN Graphics/Desktop/hotel_up/Hotel_HTML/assets/scss/_reset.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #191d34;
 }
 
@@ -6467,7 +6467,7 @@ h3 {
   color: #fff;
   font-weight: 900;
   margin-bottom: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
 }
 

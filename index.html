@@ -34,7 +34,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 
   <!-- slider -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -56,8 +58,8 @@
   <link href="css/swiper.css" rel="stylesheet">
   <link href="css/magnific-popup.css" rel="stylesheet">
   <!-- Animation -->
-  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- <link href="css/styles.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="./greenmouse-web/style.css">
@@ -71,7 +73,7 @@
 
   <style>
     .scroll-up {
-      height: 400px;
+      height: 300px;
       overflow: hidden;
       position: relative;
     }
@@ -88,10 +90,10 @@
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
       /* Apply animation to this element */
-      -moz-animation: scroll-up 15s linear infinite;
-      -webkit-animation: scroll-up 15s linear infinite;
+      -moz-animation: scroll-up 20s linear infinite;
+      -webkit-animation: scroll-up 20s linear infinite;
       animation-fill-mode: both;
-      animation: scroll-up 15s linear infinite;
+      animation: scroll-up 20s linear infinite;
 
     }
     .scroll-up .inner1 {
@@ -240,7 +242,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="about.html"><span class="item-text">About Us</span></a>
             <div class="dropdown-items-divide-hr"></div>
-            <a class="dropdown-item" href="./portfolio/index.html"><span class="item-text">Our Work</span></a>
+            <a class="dropdown-item" href="./greenmouse-port/portfolio.html"><span class="item-text">Our Work</span></a>
             <div class="dropdown-items-divide-hr"></div>
             <a class="dropdown-item" href="./greenmouse-web/team.html"><span class="item-text">Our Team</span></a>
             <div class="dropdown-items-divide-hr"></div>
@@ -331,7 +333,7 @@
       <i class="fas fa-4x fa-circle" style="color: yellow;"></i>
     </div>
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-8" data-aos="fade-right">
         <!-- <p class="p-heading p-large">We are a team of software engineers, Web App developers, Mobile App developers,
           and best web designers all under one roof, with focus on delivering quality web design projects in
           Lagos, Nigeria that is result oriented and customer
@@ -340,20 +342,20 @@
       </div>
       <div class="col-lg-4 services">
         <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-8">
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-8" data-aos="fade-left">
             <h5>Brand Identity</h5>
             <p>We sketch, create, design professional logos and brand identities for clients.</p>
-            <a href="#" class="link" style="color: #82c225 !important;">Learn More <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="link" style="color: #82c225 !important;">Visit Site <i class="fas fa-arrow-right"></i></a>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-9">
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-9" data-aos="fade-left">
             <h5>Web Developement</h5>
             <p>We deliver responsive and functional website designs, enabling our clients to showcase their products</p>
-            <a href="#" class="link" style="color: #82c225 !important;">Learn More <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="link" style="color: #82c225 !important;">Visit Site <i class="fas fa-arrow-right"></i></a>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-10">
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-10" data-aos="fade-left">
             <h5>Mobile App Development</h5>
             <p>We create Mobile Application for all users both Iphone and Android Users</p>
-            <a href="#" class="link" style="color: #82c225 !important;">Learn More <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="link" style="color: #82c225 !important;">Visit Site <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
   
@@ -368,11 +370,11 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="text-container">
-            <h2 class="text-left" style="color: #222; font-size: 20px; font-family: 'Archivo Black', sans-serif; ">Featured Work
+            <h2 class="text-left" style="color: #222; font-size: 20px; font-family: 'Montserrat', sans-serif; ">Featured Work
             </h2>
             <p class="para">We have created awesome web designs in Nigeria since inception for many businesses
               in and outside Nigeria.</p>
-            <img class="img-fluid" src="images/ginger beer.png" alt="alternative">
+            <img class="img-fluid" src="images/ginger beer.png" data-aos="zoom-in-left" alt="alternative">
             <h1 class="par">Our Class-Mobile App</h1>
           </div>
           <div class="col-lg-5 head-right">
@@ -381,9 +383,9 @@
         </div>
         <div class="col-lg-6">
           <div class="image-container">
-            <img class="img-fluid" src="images/cbt.jpg" alt="alternative">
+            <img class="img-fluid" src="images/cbt.jpg" data-aos="zoom-in-left" alt="alternative">
             <h1 class="par">CBD Worship-Web App</h1>
-            <img class="img-fluid img3" src="images/square.jpg" alt="alternative">
+            <img class="img-fluid img3" src="images/square.jpg" data-aos="zoom-in-left" alt="alternative">
             <h1 class="par">Frontend Development</h1>
           </div>
         </div>
@@ -410,7 +412,7 @@
               <a href="#"><img src="assets/img/gallery/01.png" onmouseover="this.src='assets/img/gallery/studio-2.png'" onmouseout="this.src='assets/img/gallery/01.png'" alt=""></a>
             </div>
             <div class="gallery-img">
-              <a href="#"><img src="assets/img/gallery/03.png" onmouseover="this.src='assets/img/gallery/studio-9.png'" onmouseout="this.src='assets/img/gallery/03.png'" alt=""></a>
+              <a href="#"><img src="assets/img/gallery/001white.png" onmouseover="this.src='assets/img/gallery/001.png'" onmouseout="this.src='assets/img/gallery/001white.png'" alt=""></a>
             </div>
             
             <div class="gallery-img">
@@ -420,7 +422,7 @@
               <a href="#"><img src="assets/img/gallery/03.png" onmouseover="this.src='assets/img/gallery/studio-9.png'" onmouseout="this.src='assets/img/gallery/03.png'" alt=""></a>
             </div>
             <div class="gallery-img">
-              <a href="#"><img src="assets/img/gallery/01.png" onmouseover="this.src='assets/img/gallery/studio-2.png'" onmouseout="this.src='assets/img/gallery/01.png'" alt=""></a>
+              <a href="#"><img src="assets/img/gallery/002white.png" onmouseover="this.src='assets/img/gallery/002.png'" onmouseout="this.src='assets/img/gallery/002white.png'" alt=""></a>
             </div>
             <div class="gallery-img">
               <a href="#"><img src="assets/img/gallery/03.png" onmouseover="this.src='assets/img/gallery/studio-9.png'" onmouseout="this.src='assets/img/gallery/03.png'" alt=""></a>
@@ -437,13 +439,14 @@
     <div class="container client">
       <div class="row client1">
         <div class="col-lg-4 col-md-12">
-          <h2 style="color: #222; font-size: 20px; font-family: 'Archivo Black', sans-serif; ">Join the 200+
+          <h2 style="color: #222; font-size: 20px; font-family: 'Montserrat', sans-serif; ">Join the 200+
             businesses</h2>
           <h2 class="h2" style="color: #222; font-size: 20px; font-family: 'Archivo Black', sans-serif; "></h2>
           <P>We've worked with brands big and small. We'd love to work with you too.</P>
         </div>
-        <div class="col-lg-7 col-md-12 col-sm-12 scroll-up">
-          <div class="row cli inner">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <div class="scroll-up">
+            <div class="row cli inner">
               <div class="col-4">
                 <img src="images/14.png" class="qqq" id="wish" alt="logo">
               </div>
@@ -480,9 +483,117 @@
             <div class="col-4">
               <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
             </div>
+            <div class="col-4">
+                <img src="images/14.png" class="qqq" id="wish" alt="logo">
+              </div>
+              <div class="col-4">
+                <img src="images/18.png" class="wit"  alt="logo">
+              </div>
+              <div class="col-4">
+                <img src="images/19.png" class="bsn"  alt="logo">
+              </div>
+              <div class="col-4">
+              <img src="images/1.png" class="near" id="near" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/3.png" class="wtc"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/5.png" class="cbt" id="cbt"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/6.png" class="petro" id="pac"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/20.png" class="times"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/8.png" class="cash" id="cash"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/9.png" class="wit" id="wit" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/10.png" class="bsn" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
+            </div>
+            <div class="col-4">
+                <img src="images/14.png" class="qqq" id="wish" alt="logo">
+              </div>
+              <div class="col-4">
+                <img src="images/18.png" class="wit"  alt="logo">
+              </div>
+              <div class="col-4">
+                <img src="images/19.png" class="bsn"  alt="logo">
+              </div>
+              <div class="col-4">
+              <img src="images/1.png" class="near" id="near" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/3.png" class="wtc"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/5.png" class="cbt" id="cbt"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/6.png" class="petro" id="pac"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/20.png" class="times"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/8.png" class="cash" id="cash"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/9.png" class="wit" id="wit" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/10.png" class="bsn" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
+            </div>
+            <div class="col-4">
+                <img src="images/14.png" class="qqq" id="wish" alt="logo">
+              </div>
+              <div class="col-4">
+                <img src="images/18.png" class="wit"  alt="logo">
+              </div>
+              <div class="col-4">
+                <img src="images/19.png" class="bsn"  alt="logo">
+              </div>
+              <div class="col-4">
+              <img src="images/1.png" class="near" id="near" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/3.png" class="wtc"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/5.png" class="cbt" id="cbt"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/6.png" class="petro" id="pac"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/20.png" class="times"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/8.png" class="cash" id="cash"  alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/9.png" class="wit" id="wit" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/10.png" class="bsn" alt="logo">
+            </div>
+            <div class="col-4">
+              <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
+            </div>
           
           </div>
-          
+          </div>
         </div>
       </div>
     </div>
@@ -500,13 +611,18 @@
   <!-- counter -->
 <div class="community-area wow fadeInUp section-padding" id="contact counter">
 <div class="container">
+  <!-- <div class="video">
+  <video class="video-bg" autoplay muted loop>
+  <source src="highway-loop.mp4" type="video/mp4">
+</video>
+</div> -->
 <div class="row count">
 <div class="col-6 col-lg">
 <div class="single-community big-social">
 <!-- <a class="google-plus" href="#"><i class="fab fa-react"></i></a> -->
 </div>
 </div>
-<div class="col-6 col-lg">
+<div class="col-6 col-lg" data-aos="fade-down-right">
 <div class="single-community big-social cell">
   <div class="counter-value number-count" data-count="231">1</div>
   <p class="counter-info" style="color: palevioletred;">Happy Users</p>
@@ -526,7 +642,7 @@
 <!-- <a class="behance" href="#"><i class="fab fa-2x fa-nod"></i></a> -->
 </div>
 </div>
-<div class="col-6 col-lg">
+<div class="col-6 col-lg" data-aos="fade-down-left">
 <div class="single-community big-social cell">
   <div class="counter-value number-count" data-count="59">1</div>
   <p class="counter-info" style="color: #00C99C;">Issues Solved</p>
@@ -537,15 +653,21 @@
 <div class="single-community mid-social">
 <a class="twitter" href="#"><i class="fab fa-js-squar"></i></a>
 </div>
-<div class="single-community big-social cell">
+<div class="single-community big-social cell" data-aos="fade-up-left">
   <div class="counter-value number-count" data-count="127">1</div>
-  <p class="counter-info" style="color: #15B2EC;">Clients</p>
+  <p class="counter-info" style="color: #15B2EC;">Happy Clients</p>
 <!-- <a class="flickr" href="#"><i class="fab fa-ph"></i>1</a> -->
 </div>
 </div>
 </div>
 </div>
 </div>
+
+<!-- <div class="video">
+  <video class="video-bg" autoplay muted loop>
+  <source src="highway-loop.mp4" type="video/mp4">
+</video>
+</div> -->
 
   <!-- Statistics -->
 <div class="counter">
@@ -558,6 +680,7 @@
         </div>
     </div>
 </div> 
+
 
 
     <!-- Testimonials -->
@@ -627,25 +750,34 @@
         <h1 class="h1h1" style="color: #fff;">TALK</h1>
       </div>
       <div class="col-lg-5 heading-right">
-        <p style="color: #fff;">Ready to create a unique experience? Let's get in touch !</p>
+        <p style="color: #fff;">Ready to create a unique experience? <br> Let's get in touch !</p>
         <a href="getquote.html" class="link">Start a Project <span> <i class="fas fa-arrow-right"></i></span></a>
       </div>
     </div>
 
     <div class="row second-sec">
-      <div class="col-lg-2">
+      <!-- <div class="col-lg-2">
         <img src="./images/sp.png" style="width: 80px;" alt="">
-      </div>
+      </div> -->
       <div class="col-lg-4">
         <p style="color: #fff;">Ralex Glass House, 2, Metal Box street, Off Acme Road, Ikeja industrial Estate,
-          Ogba-Ikeja, Lagos State.</p>
-      </div>
-      <div class="col-lg-1 v1"></div>
-      <div class="col-lg-4">
+          Ogba-Ikeja, Lagos State.</p>          
         <p style="color: #fff;">+234-817-723-5762 <span><a href="http://api.whatsapp.com/send?phone=+2348177235762"
-              target="_blank"><i class="fab fa-whatsapp"></i></a></span></p>
+          target="_blank"><i class="fab fa-whatsapp"></i></a></span></p>
         <p style="color: #fff;"><span><i class="fas fa-mobile-alt"></i></span> +234-806-378-6241</p>
         <p style="color: #fff;"><i class="fas fa-envelope"></i> <span>info@greenmousetech.com</span></p>
+      </div>
+      <div class="col-lg-2 v1"></div>
+      <div class="col-lg-2">
+         <div class="right">
+            <p class="second">Download our 2020 brochure</p>
+            <div class="search_course_wrap">
+              <form action="" class="form_box d-flex justify-content-between">
+                <input type="email" name="email" id="email" placeholder="Input email to download">
+                <button type="submit" class="btn search_course_btn">Submit</button>
+              </form>
+            </div>
+          </div>
       </div>
     </div>
   </div>
@@ -717,7 +849,7 @@
   // AOS Animation
 
   AOS.init({
-    duration: 2100,
+    duration: 1800,
   });
 </script>
 </body>

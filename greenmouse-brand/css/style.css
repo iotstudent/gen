@@ -34,7 +34,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 html, body {
 	height: 100%;
-	font-family: "Rubik", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background-color: #171717;
 }
@@ -72,9 +72,9 @@ h6 {
 
 p {
 	font-size: 16px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	color: #777C81;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 26px;
 	margin: 0 0 15px 0;
 }
