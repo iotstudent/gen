@@ -70,6 +70,9 @@ body, p {
 
 .li-space-lg li {
 	margin-bottom: 0.25rem;
+	color: #fff;
+	font-weight: 300;
+
 }
 
 .indent {

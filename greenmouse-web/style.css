@@ -1128,14 +1128,14 @@ mobile menu css
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  background: #004AFF;
-  color: #fff;
+  background: none;
+  color: #82c225;
   padding-left: 25px;
 }
 
-.slicknav_nav .slicknav_row:hover {
+/* .slicknav_nav .slicknav_row:hover {
   background: #004AFF;
-}
+} */
 
 /* .slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
   text-transform: capitalize;

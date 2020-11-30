@@ -265,10 +265,24 @@ li {
   font-size: 20px;
   color: #82c225;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 769px) {
   .gallery__item {
     height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .site-navbar{
+    margin-left: 10px;
+  }
+  .blog-section .img-fluid, .blog-section {
+    display: none;
+  }
+  .portfolio-wrap, .footer {
+    padding: 10px;
+    margin-left: 20px;
   }
 }
