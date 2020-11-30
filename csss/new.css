@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: stretch;
   gap: 20px;
-  height: 120vh;
+  height: 80vh;
 }
 
 #circle-container .circle .fa-circle {
@@ -674,9 +674,10 @@ community area css
   .header h1 {
     font-size: 50px;
     margin-top: 20px;
+    line-height: 1.1;
   }
   #header {
-    height: 100vh;
+    height: 60vh;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -779,8 +780,21 @@ community area css
 }
 
 @media screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 50px;
+    margin-top: 20px;
+  }
   .slide-text marquee {
     display: none;
+  }
+  .services {
+    margin-top: -20px;
+  }
+  .basic-1 {
+    margin-top: -150px;
+  }
+  .basic-1 .img2 {
+    margin-top: -50px;
   }
   .info-graphics {
     display: none;
@@ -824,7 +838,7 @@ community area css
     font-size: 26px;
   }
   #header {
-    height: 100vh;
+    height: 60vh;
     padding-left: 50px;
     padding-right: 25px;
   }
@@ -858,9 +872,6 @@ community area css
     margin-left: -130px;
     margin-top: 20px;
   }
-  /* .header-footer .right {
-    margin-top: -60px;
-  } */
   .basic-3 .video-play-button:before {
     width: 3rem;
     height: 3rem;
@@ -891,6 +902,9 @@ community area css
   .basic-1 .para {
     font-size: 24px;
   }
+  .gallery-area{
+    margin-top: 50px;
+  }
   .par {
     font-size: 20px;
     margin-top: 5px;
@@ -905,16 +919,6 @@ community area css
   .img3 {
     margin-top: 20px;
   }
-  /* .client img {
-    margin-top: 30px;
-  }
-  .client p {
-    font-size: 24px;
-  }
-  .cli, .cli3 {
-    display: flex;
-    flex-direction: column;
-  } */
   .footer h1 {
     font-size: 44px;
     line-height: 1;
@@ -926,5 +930,8 @@ community area css
   .h1h1 {
     margin-top: -50px;
     margin-left: 40px;
+  }
+  .footer .second{
+    margin-left: 5px;
   }
 }
