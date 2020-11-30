@@ -465,6 +465,13 @@ community area css
   text-align: justify;
 }
 
+.submit_btn {
+  background-color: #82c225;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+
 /* .count {
   margin-left: -200px;
 }
@@ -671,6 +678,10 @@ community area css
   background-color: #000;
 }
 
+.form-input {
+  padding-right: 58px;
+}
+
 @media screen and (max-width:769px) {
   .header h1 {
     font-size: 50px;
@@ -778,6 +789,9 @@ community area css
   .second-sec .right {
     margin-left: 0px;
   }
+  .form-input {
+    padding-right: 360px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -832,6 +846,9 @@ community area css
   }
   .inner #nlpc {
     margin-left: -70px;
+  }
+  .form-input {
+    padding-right: 170px;
   }
 }
 
@@ -904,7 +921,7 @@ community area css
   .basic-1 .para {
     font-size: 24px;
   }
-  .gallery-area{
+  .gallery-area {
     margin-top: 50px;
   }
   .par {
@@ -933,7 +950,10 @@ community area css
     margin-top: -50px;
     margin-left: 40px;
   }
-  .footer .second{
+  .footer .second {
     margin-left: 5px;
+  }
+  .form-input {
+    padding-right: 5px;
   }
 }
