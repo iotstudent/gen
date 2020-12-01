@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
@@ -24,7 +25,7 @@
   <link rel="icon" href="images/sp1.png">
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background-color: #0A1B2B;">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
   <div class="site-wrap" id="home-section">
@@ -132,42 +133,53 @@
     <!-- hero content -->
     <div class="site-section-cover">
       <div class="container">
-        <div class="row align-items-center text-center justify-content-center">
+        <div class="row align-items-center text-left justify-content-center">
           <div class="col-lg-12">
-                  <h2 class="mb-5" style="color: #fff;">Featured Projects</h2>
-            <p class="lead mb-5" style="color: #fff;">We automate business operations from start to finish.</p>
-              <a href="../getquote.html" class="btn btn-success" style="color: #fff;">Get a Quote</a>
+                  <h1 class="mb-4" style="color: #fff;">We automate business operations from start to finish.</h1>
+            <!-- <p class="lead mb-5" style="color: #fff;">We automate business operations from start to finish.</p> -->
+              <a href="../getquote.html" class="btn btn-success" style="color: #fff; background-color: #82c225; border-radius: 4px;">Get a Quote</a>
           </div>
         </div>
       </div>
-      
     </div>
 
-        <!-- tabs -->
-    <!-- <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
-    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Web Development</a>
-    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Mobile Application</a>
-  </div>
-</nav>
-<div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
-  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-</div> -->
-    
+    <div id="accordion" class="container">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Show All <i class="fas fa-angle-down"></i>
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <div class="col-12">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: #fff;">Web Application</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: #fff;">Mobile Application</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-brand-tab" data-toggle="pill" href="#pills-brand" role="tab" aria-controls="pills-brand" aria-selected="false" style="color: #fff;">Brand Identity</a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
     <!-- porfolio section -->
     <div class="container portfolio-wrap site-section">
-
-      <!-- <h2 class="mb-5">Portfolio</h2> -->
       <div class="row mb-4">
-
         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
           <a href="portfolio-single.html" target="_blank" class="portfolio-item"><img src="images/ffhew.png" alt="Image" class="img-fluid"></a>
           <div class="v1"></div>
           <p>First Fountain Homes</p>
-          <h6>Web App Development</h6>
+          <h6>UI/UX, Web App Development, Web Hosting</h6>
         </div>
 
 
@@ -191,20 +203,181 @@
         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
           <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/shavonee.png" alt="Image" class="img-fluid"></a>
           <p>Shavone</p>
-          <h6>Web Application</h6>
+          <h6>UI/UX Design, Web Design</h6>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
-          <a href="https://healthsharenigeria.com/" target="_blank" class="portfolio-item"><img src="images/healthshar.jpg" alt="Image" class="img-fluid"></a>
+          <a href="https://healthsharenigeria.com/" target="_blank" class="portfolio-item"><img src="images/health.png" alt="Image" class="img-fluid"></a>
           <p>Healthshare</p>
           <h6>Web Application</h6>
         </div>
          <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
-          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/times.jpg" alt="Image" class="img-fluid"></a>
+          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/times.png" alt="Image" class="img-fluid"></a>
           <p>10TimesPro</p>
           <h6>Web Application</h6>
         </div>
+         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="https://healthsharenigeria.com/" target="_blank" class="portfolio-item"><img src="images/cbdd.png" alt="Image" class="img-fluid"></a>
+          <p>CBD Worship</p>
+          <h6>Web Application</h6>
+        </div>
+         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/church.png" alt="Image" class="img-fluid"></a>
+          <p>Church Management</p>
+          <h6>Web Application</h6>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/bsnn.png" alt="Image" class="img-fluid"></a>
+          <p>BSN</p>
+          <h6>Web Application</h6>
+        </div>
+         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://healthsharenigeria.com/" target="_blank" class="portfolio-item"><img src="images/cbnl.png" alt="Image" class="img-fluid"></a>
+          <p>CBNL</p>
+          <h6>Web Application</h6>
+        </div>
+        <!-- <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/bsnn.png" alt="Image" class="img-fluid"></a>
+          <p>BSN</p>
+          <h6>Web Application</h6>
+        </div> -->
       </div>
     </div>
+  </div>
+
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+     <!-- porfolio section -->
+    <div class="container portfolio-wrap site-section">
+      <div class="row mb-4">
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="portfolio-single.html" target="_blank" class="portfolio-item"><img src="images/ffhew.png" alt="Image" class="img-fluid"></a>
+          <div class="v1"></div>
+          <p>First Fountain Homes</p>
+          <h6>UI/UX, Web App Development, Web Hosting</h6>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="http://www.olchessclub.com/" target="_blank" class="portfolio-item"><img src="images/chess1.png" alt="Image" class="img-fluid"></a>
+          <p>Orchid Chess Club</p>
+          <h6>Web Application</h6>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/shavonee.png" alt="Image" class="img-fluid"></a>
+          <p>Shavone</p>
+          <h6>UI/UX Design, Web Design</h6>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="https://healthsharenigeria.com/" target="_blank" class="portfolio-item"><img src="images/health.png" alt="Image" class="img-fluid"></a>
+          <p>Healthshare</p>
+          <h6>Web Application</h6>
+        </div>>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+     <!-- porfolio section -->
+    <div class="container portfolio-wrap site-section">
+      <div class="row mb-4">
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://play.google.com/store/apps/developer?id=HollaNow+Technologies" target="_blank" class="portfolio-item"><img src="images/class.jpg" alt="Image" class="img-fluid"></a>
+          <p>Our Class</p>
+          <h6>Mobile Application</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="pills-brand" role="tabpanel" aria-labelledby="pills-brand-tab">
+     <!-- porfolio section -->
+    <div class="container portfolio-wrap site-section">
+      <div class="row mb-4">
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="https://mywishlistng.com/" target="_blank" class="portfolio-item"><img src="images/drum.jpg" alt="Image" class="img-fluid"></a>
+          <p>My Wish List</p>
+          <h6>Brand Identity/Web App Development</h6>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- tabs -->
+    <!-- <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Web Development</a>
+    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Mobile Application</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+</div> -->
+    
+    <!-- porfolio section -->
+    <!-- <div class="container portfolio-wrap site-section">
+      <div class="row mb-4">
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="portfolio-single.html" target="_blank" class="portfolio-item"><img src="images/ffhew.png" alt="Image" class="img-fluid"></a>
+          <div class="v1"></div>
+          <p>First Fountain Homes</p>
+          <h6>UI/UX, Web App Development, Web Hosting</h6>
+        </div>
+
+
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="https://mywishlistng.com/" target="_blank" class="portfolio-item"><img src="images/drum.jpg" alt="Image" class="img-fluid"></a>
+          <p>My Wish List</p>
+          <h6>Brand Identity/Web App Development</h6>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://play.google.com/store/apps/developer?id=HollaNow+Technologies" target="_blank" class="portfolio-item"><img src="images/class.jpg" alt="Image" class="img-fluid"></a>
+          <p>Our Class</p>
+          <h6>Mobile Application</h6>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="http://www.olchessclub.com/" target="_blank" class="portfolio-item"><img src="images/chess1.png" alt="Image" class="img-fluid"></a>
+          <p>Orchid Chess Club</p>
+          <h6>Web Application</h6>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/shavonee.png" alt="Image" class="img-fluid"></a>
+          <p>Shavone</p>
+          <h6>UI/UX Design, Web Design</h6>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="https://healthsharenigeria.com/" target="_blank" class="portfolio-item"><img src="images/health.png" alt="Image" class="img-fluid"></a>
+          <p>Healthshare</p>
+          <h6>Web Application</h6>
+        </div>
+         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/times.png" alt="Image" class="img-fluid"></a>
+          <p>10TimesPro</p>
+          <h6>Web Application</h6>
+        </div>
+         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="https://healthsharenigeria.com/" target="_blank" class="portfolio-item"><img src="images/cbdd.png" alt="Image" class="img-fluid"></a>
+          <p>CBD Worship</p>
+          <h6>Web Application</h6>
+        </div>
+         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-right">
+          <a href="https://shavonelimited.com/" target="_blank" class="portfolio-item"><img src="images/church.png" alt="Image" class="img-fluid"></a>
+          <p>Church Management</p>
+          <h6>Web Application</h6>
+        </div>
+         <div class="col-sm-6 col-md-6 col-lg-6 mb-4" data-aos="fade-up-left">
+          <a href="https://healthsharenigeria.com/" target="_blank" class="portfolio-item"><img src="images/cbnl.png" alt="Image" class="img-fluid"></a>
+          <p>CBNL</p>
+          <h6>Web Application</h6>
+        </div>
+      </div>
+    </div> -->
 
     <!-- clients -->
       <div class="site-section blog-section" style="margin-bottom: 1px;" data-aos="fade-right"

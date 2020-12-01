@@ -21,6 +21,10 @@
   transform: scale(2);
 }
 
+#home-section {
+  background-color: #0A1B2B;
+}
+
 li {
   list-style: none;
   color: #fff;
@@ -54,7 +58,6 @@ li {
   color: #82c225;
   transition: all 0.4s ease;
 }
-
 
 .btn-primary {
   background-color: #82c225;
@@ -109,6 +112,31 @@ li {
   color: #82c225;
 }
 
+.card-body {
+  background-color: #0A1B2B !important;
+}
+
+#accordion {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+#accordion .card {
+  background-color: #0A1B2B;
+  margin-top: 50px;
+}
+
+#accordion button {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.portfolio-wrap {
+  margin-top: 5px;
+}
+
 .portfolio-wrap p {
   font-size: 20px;
   color: #82c225;
@@ -120,10 +148,17 @@ li {
   .gallery__item {
     height: 100vh;
   }
+  #accordion {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .portfolio-wrap img{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .site-navbar{
+  .site-navbar {
     margin-left: 10px;
   }
   .blog-section .img-fluid, .blog-section {
