@@ -752,7 +752,7 @@ community area css
     margin-top: 30px;
   }
   .inner #wish {
-    margin-left: 45px;
+    margin-left: 70px;
   }
   .footer {
     padding-left: 60px;
@@ -829,6 +829,12 @@ community area css
   }
   .client .near, .client .cbt, .client .cash, .client .qqq {
     margin-left: 60px;
+  }
+  .inner #wish {
+    margin-left: 45px;
+  }
+  .inner #jeff {
+    margin-left: 65px;
   }
   .inner #near {
     margin-left: 45px;

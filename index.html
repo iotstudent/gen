@@ -72,7 +72,7 @@
   <link rel="icon" href="images/sp1.png">
 
   <style>
-    .scroll-up {
+    /* .scroll-up {
       height: 300px;
       overflow: hidden;
       position: relative;
@@ -85,11 +85,11 @@
       margin: 0;
       line-height: 50px;
       text-align: center;
-      /* Starting position */
+      Starting position
       -moz-transform: translateY(100%);
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
-      /* Apply animation to this element */
+      Apply animation to this element
       -moz-animation: scroll-up 20s linear infinite;
       -webkit-animation: scroll-up 20s linear infinite;
       animation-fill-mode: both;
@@ -103,11 +103,11 @@
       margin: 0;
       line-height: 50px;
       text-align: center;
-      /* Starting position */
+      Starting position
       -moz-transform: translateY(100%);
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
-      /* Apply animation to this element */
+      Apply animation to this element
       -moz-animation: scroll-up 15s linear infinite;
       -webkit-animation: scroll-up 15s linear infinite;
       animation: scroll-up 15s linear infinite;
@@ -119,17 +119,17 @@
       margin: 0;
       line-height: 50px;
       text-align: center;
-      /* Starting position */
+      Starting position
       -moz-transform: translateY(100%);
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
-      /* Apply animation to this element */
+      Apply animation to this element
       -moz-animation: scroll-up 15s linear infinite;
       -webkit-animation: scroll-up 15s linear infinite;
       animation: scroll-up 15s linear infinite;
     }
   
-    /* Move it (define the animation) */
+    Move it (define the animation)
     @-moz-keyframes scroll-up {
       0% {
         -moz-transform: translateY(100%);
@@ -153,20 +153,53 @@
     @keyframes scroll-up {
       0% {
         -moz-transform: translateY(100%);
-        /* Browser bug fix */
+        Browser bug fix
         -webkit-transform: translateY(100%);
-        /* Browser bug fix */
+        Browser bug fix
         transform: translateY(100%);
       }
   
       100% {
         -moz-transform: translateX(-100%);
-        /* Browser bug fix */
+        Browser bug fix
         -webkit-transform: translateY(-100%);
-        /* Browser bug fix */
+        Browser bug fix
         transform: translateY(-100%);
       }
-    }
+    } */
+  .box{
+            overflow: hidden;
+            height: 400px;
+            /* width: 50%; */
+        }
+        .roww{
+            /* display: flex;
+            padding: 20px 20px 0 20px;
+            justify-content: space-between;
+            flex-wrap: wrap; */
+        }
+        .roww>div{
+            height: 100px;
+            /* border: 1px solid blue;
+            margin-right: 2.5%;
+            flex-basis: 22.5%;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center; */
+        }
+        .roww>div:nth-child(1n+13){
+            margin-bottom: 0;
+        }
+        .roww>div:nth-child(4n+4){
+            margin-right: 0;
+        }
+        .col-4{
+            animation: trek 15s linear infinite;
+        }
+        @keyframes trek{
+          100%{transform: translateY(-480px)}
+        }
   </style>
 
 </head>
@@ -459,9 +492,9 @@
           <h2 class="h2" style="color: #222; font-size: 20px; font-family: 'Archivo Black', sans-serif; "></h2>
           <P>We've worked with brands big and small. We'd love to work with you too.</P>
         </div>
-        <div class="col-lg-7 col-md-12 col-sm-12">
-          <div class="scroll-up">
-            <div class="row cli inner">
+        <div class="col-lg-7 col-md-12 col-sm-12 grid">
+          <div class="scroll-up div move box">
+            <!-- <div class="row cli inner">
               <div class="col-4">
                 <img src="images/14.png" class="qqq" id="wish" alt="logo">
               </div>
@@ -607,8 +640,198 @@
               <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
             </div>
           
-          </div>
-          </div>
+          </div> -->
+          <div class="row cli inner roww">
+                        <div class="col-4">
+                        <img src="images/14.png" class="qqq" id="wish" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/18.png" class="wit" id="jeff" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/19.png" class="bsn"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/1.png" class="near" id="near" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/3.png" class="wtc"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/5.png" class="cbt" id="cbt"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/6.png" class="petro" id="pac"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/20.png" class="times"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/8.png" class="cash" id="cash"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/9.png" class="wit" id="wit" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/10.png" class="bsn" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
+                        </div>
+                    </div>
+                    <div class="row cli inner roww">
+                        <div class="col-4">
+                        <img src="images/14.png" class="qqq" id="wish" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/18.png" class="wit" id="jeff" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/19.png" class="bsn"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/1.png" class="near" id="near" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/3.png" class="wtc"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/5.png" class="cbt" id="cbt"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/6.png" class="petro" id="pac"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/20.png" class="times"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/8.png" class="cash" id="cash"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/9.png" class="wit" id="wit" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/10.png" class="bsn" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
+                        </div>
+                    </div>
+                    <div class="row cli inner roww">
+                        <div class="col-4">
+                        <img src="images/14.png" class="qqq" id="wish" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/18.png" class="wit" id="jeff"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/19.png" class="bsn"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/1.png" class="near" id="near" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/3.png" class="wtc"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/5.png" class="cbt" id="cbt"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/6.png" class="petro" id="pac"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/20.png" class="times"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/8.png" class="cash" id="cash"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/9.png" class="wit" id="wit" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/10.png" class="bsn" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
+                        </div>
+                    </div>
+                    <div class="row cli inner roww">
+                        <div class="col-4">
+                        <img src="images/14.png" class="qqq" id="wish" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/18.png" class="wit" id="jeff"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/19.png" class="bsn"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/1.png" class="near" id="near" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/3.png" class="wtc"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/5.png" class="cbt" id="cbt"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/6.png" class="petro" id="pac"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/20.png" class="times"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/8.png" class="cash" id="cash"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/9.png" class="wit" id="wit" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/10.png" class="bsn" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
+                        </div>
+                    </div>
+                    <div class="row cli inner roww">
+                        <div class="col-4">
+                        <img src="images/14.png" class="qqq" id="wish" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/18.png" class="wit" id="jeff"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/19.png" class="bsn"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/1.png" class="near" id="near" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/3.png" class="wtc"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/5.png" class="cbt" id="cbt"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/6.png" class="petro" id="pac"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/20.png" class="times"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/8.png" class="cash" id="cash"  alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/9.png" class="wit" id="wit" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/10.png" class="bsn" alt="logo">
+                        </div>
+                        <div class="col-4">
+                        <img src="images/11.png" class="qqq" id="nlpc"  alt="logo">
+                        </div>
+                    </div>
+        </div>
         </div>
       </div>
     </div>
