@@ -62,7 +62,7 @@ body {
   /* background: #0A1B2B; */
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  color: #cbe5ff;
+  color: #fff;
   overflow-x: hidden;
 }
 
@@ -95,6 +95,9 @@ a.gradient-btn:hover:after, a.gradient-btn:after, .single-details a, .single-det
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
+}
+p{
+  font-weight: 300 !important;
 }
 
 /*===================
@@ -821,12 +824,12 @@ distibution area css
   z-index: -1;
 }
 
-.distibution-d li {
+.distibution-d p {
   font-size: 18px;
   color: #fff;
 }
 
-.distibution-d li span {
+.distibution-d p span {
   font-size: 36px;
   font-weight: 700;
 }

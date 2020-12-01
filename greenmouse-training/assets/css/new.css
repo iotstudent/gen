@@ -12,6 +12,33 @@
   padding: 10px;
 }
 
+#hero .pera-dtails {
+  width: 100%;
+}
+
+#steps {
+  margin-top: -150px;
+  /* margin-left: -100px; */
+}
+
+#steps .btn, #accredit .btn {
+  margin-left: -100px;
+}
+
+#steps img {
+  width: 75%;
+}
+
+#steps .line {
+  margin-top: 100px;
+  margin-left: -100px;
+  margin-bottom: 30px;
+}
+
+#steps .line-content {
+  margin-left: 60px;
+}
+
 .icons {
   margin-top: 50px;
 }
@@ -63,13 +90,15 @@
 }
 
 .customer-captions .caption-details {
-  /* width: 80%; */
   border-radius: 10px;
   background-color: #fff;
   padding: 40px 0px 0px 40px;
   margin-top: 100px;
   box-shadow: 1.395px 19.951px 38px 19.95px rgba(0, 0, 0, 0.05);
-  /* text-align: center; */
+}
+
+.pera-dtails {
+  width: 60%;
 }
 
 .customer-captions h2 {
@@ -94,6 +123,14 @@
 
 .customer-captions .caption-details p {
   padding-bottom: 10px;
+}
+
+.customer-captions {
+  padding-left: 0 !important;
+}
+
+.monthly img {
+  width: 80%;
 }
 
 .monthly .left {
@@ -127,7 +164,51 @@
   margin-top: -5px;
 }
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+  #steps {
+    margin-top: -50px;
+  }
+  #steps .btn, #accredit .btn {
+    margin-left: 0px;
+  }
+  #steps .line {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  #steps .line-content {
+    margin-left: 0px;
+  }
+  #steps .line-content i {
+    margin-top: 10px;
+  }
+  #steps img {
+    width: 100%;
+  }
+  .pera-dtails {
+    width: 100%;
+  }
+  .customer-captions .caption-details {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 0px 0px 0px 0px;
+    margin-top: 100px;
+    box-shadow: 1.395px 19.951px 38px 19.95px rgba(0, 0, 0, 0.05);
+  }
+  .customer-captions {
+    margin-top: 50px;
+  }
+  .monthly img {
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #steps .line {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 420px) {
   .hero {

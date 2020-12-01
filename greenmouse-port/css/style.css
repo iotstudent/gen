@@ -437,7 +437,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .footer p {
   color: rgb(224, 219, 219);
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .footer a:hover {
@@ -1119,7 +1120,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .site-section-cover, .site-section-cover .container>.row {
   height: calc(50vh - 196px);
   min-height: 477px;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 @media (max-width: 991.98px) {
@@ -1170,8 +1171,9 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .site-section-cover p {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
+  font-weight: 300;
 }
 
 .btn-video_38929 {
