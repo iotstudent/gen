@@ -134,7 +134,7 @@
 }
 
 .monthly .left {
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: -10px;
 }
 
@@ -197,6 +197,10 @@
   }
   .customer-captions {
     margin-top: 50px;
+  }
+  .monthly .left {
+    margin-left: 0px;
+    margin-top: -10px;
   }
   .monthly img {
     width: 100%;

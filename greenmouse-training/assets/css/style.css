@@ -3701,7 +3701,7 @@ label {
   display: inline-block;
   line-height: 40px;
   text-align: center;
-  color: #949eb2;
+  color: #0A1B2B;
   margin-right: 5px;
   transition: .3s linear;
 }
@@ -3743,6 +3743,7 @@ label {
 .footer-area .footer-tittle ul li {
   color: #868c98;
   margin-bottom: 14px;
+  font-size: 16px;
 }
 
 .footer-area .footer-tittle ul li a {
