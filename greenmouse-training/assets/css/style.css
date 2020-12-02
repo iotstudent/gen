@@ -3164,15 +3164,11 @@ label {
 }
 
 @media (max-width: 767px) {
-  .service-experience {
-    /* min-width: 30%;  */
-  }
+ 
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .service-experience {
-    /* min-width: 20%;  */
-  }
+ 
 }
 
 @media (max-width: 767px) {
