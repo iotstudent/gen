@@ -683,6 +683,14 @@ community area css
   padding-right: 58px;
 }
 
+.basic-1 .para {
+  margin-top: -20px;
+}
+
+#sect {
+  display: none;
+}
+
 @media screen and (max-width:769px) {
   .header h1 {
     font-size: 50px;
@@ -721,6 +729,13 @@ community area css
   .basic-1 {
     padding-left: 60px;
     padding-right: 60px;
+    margin-top: -100px;
+  }
+  #sec {
+    display: none;
+  }
+  #sect {
+    display: block;
   }
   .links {
     flex-direction: column;
@@ -746,7 +761,6 @@ community area css
   }
   .client .col-lg-4 {
     padding-left: 70px;
-    /* padding-right: -50px; */
   }
   .client .col-lg-7 {
     margin-top: 30px;
@@ -779,7 +793,6 @@ community area css
     height: 50px;
     color: #222;
     font-size: 24px;
-    /* background: red; */
     text-align: center;
     line-height: 80px;
     margin: 10px;
@@ -796,8 +809,11 @@ community area css
 }
 
 @media screen and (max-width: 600px) {
+  #header {
+    height: 80vh;
+  }
   .header h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 20px;
   }
   .slide-text marquee {
@@ -810,14 +826,29 @@ community area css
   .basic-1 {
     margin-top: -150px;
   }
+  .par {
+    font-size: 18px;
+  }
+  #sect h1 {
+    font-size: 24px;
+  }
+  .basic-1 .para {
+    font-size: 28px;
+  }
   .basic-1 .img2 {
-    margin-top: -50px;
+    margin-top: -25px;
+  }
+  .basic-1 .img3 {
+    margin-top: 35px;
   }
   .info-graphics {
     display: none;
   }
   .bsn, .times, .wtc, .bsn {
     display: none;
+  }
+  .client p {
+    font-size: 28px;
   }
   .client img {
     width: 100px;
@@ -834,13 +865,13 @@ community area css
     margin-left: 45px;
   }
   .inner #jeff {
-    margin-left: 65px;
+    margin-left: 100px;
   }
   .inner #near {
     margin-left: 45px;
   }
   .inner #cbt {
-    margin-left: -75px;
+    margin-left: -70px;
   }
   .inner #pac {
     margin-left: 45px;
@@ -854,8 +885,14 @@ community area css
   .inner #nlpc {
     margin-left: -70px;
   }
+  .gallery-area {
+    margin-top: 30px;
+  }
+  .footer p{
+    font-size: 14px;
+  }
   .form-input {
-    padding-right: 170px;
+    padding-right: 105px;
   }
 }
 
@@ -882,6 +919,9 @@ community area css
   }
   .client .crowd, .client .petro, .client .wit {
     margin-left: 100px;
+  }
+  .inner #jeff {
+    margin-left: 65px;
   }
   .second {
     margin-left: -60px;
@@ -960,6 +1000,12 @@ community area css
   .footer .second {
     margin-left: 5px;
   }
+  .form-input {
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width:379px) {
   .form-input {
     padding-right: 5px;
   }

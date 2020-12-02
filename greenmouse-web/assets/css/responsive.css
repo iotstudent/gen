@@ -1,7 +1,3 @@
-
-/*Name:ICOCyption html5 tamplate*/
-
-
 /*
 ================+/+/+/+/+/+/+/+/+/=================
                     medium
@@ -564,7 +560,7 @@
 
     .heading h5 {
         font-size: 13px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
     }
     .apps-area p {
         font-size: 10px;
