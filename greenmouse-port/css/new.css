@@ -152,7 +152,7 @@ li {
     margin-top: 50px;
     margin-left: 0px;
   }
-  .portfolio-wrap img{
+  .portfolio-wrap img {
     width: 100%;
   }
 }
@@ -167,5 +167,10 @@ li {
   .portfolio-wrap, .footer {
     padding: 10px;
     margin-left: 20px;
+  }
+  footer p {
+    color: rgb(224, 219, 219);
+    font-size: 14px !important;
+    font-weight: 300;
   }
 }
