@@ -661,6 +661,9 @@ community area css
     border-radius: 50%;
     border: 1px solid transparent;
   }
+  .footer .second-sec{
+    margin-top: 100px;
+  }
   .second-sec .right {
     margin-left: 0px;
   }

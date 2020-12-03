@@ -135,18 +135,18 @@ select {
   margin-left: -5px;
 }
 
-.accordion-item p{
+.accordion-item p {
   font-size: 16px !important;
   font-weight: 300;
 }
 
 @media screen and (max-width: 769px) {
+  #contact{
+    margin-top: -40px;
+  }
   .quote .right {
     margin-top: 40px;
   }
-  /* .get {
-    margin-left: 0px;
-  } */
   .second-sec {
     margin-top: 40px;
   }

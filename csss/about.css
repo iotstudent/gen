@@ -36,12 +36,12 @@ img {
 
 @media screen and (max-width: 769px) {
   #header {
-    height: 60vh;
+    height: 50vh;
     padding: 10px;
   }
   #header h1 {
     font-size: 60px;
-    margin-top: 30px;
+    margin-top: -40px;
   }
   #header p {
     font-size: 22px;
@@ -78,5 +78,8 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  
+  #header {
+    height: 60vh;
+    padding: 10px;
+  }
 }

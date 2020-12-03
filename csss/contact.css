@@ -13,6 +13,9 @@ body {
 }
 
 @media screen and (max-width: 769px) {
+  #contact h2{
+    margin-top: -50px;
+  }
   .quote .right {
     margin-top: 40px;
   }
