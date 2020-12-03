@@ -304,7 +304,7 @@ p{
 }
 
 a.single-about {
-  color: #cbe5ff;
+  color: #fff;
   display: block;
   padding: 50px 25px;
   /* background: #1938a2; */
@@ -411,7 +411,7 @@ ico area css
 .ico-area {
   position: relative;
   z-index: 2;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .ico-area:before {
@@ -523,7 +523,7 @@ roadmap area css
 
 .roadmap-area {
   background: #0A1B2B;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .single-roadmap-img img {
@@ -792,7 +792,7 @@ distibution area css
 .distibution-bg {
   position: relative;
   z-index: 2;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .distibution-bg:before {
@@ -918,7 +918,7 @@ community area css
   position: relative;
   z-index: 2;
   background: #0A1B2B;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .community-area:before {
