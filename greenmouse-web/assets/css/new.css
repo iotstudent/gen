@@ -1,3 +1,7 @@
+#home {
+  margin-top: -50px;
+}
+
 .about-mid-img {
   margin-left: 90px;
 }
@@ -12,6 +16,9 @@
 }
 
 @media screen and (max-width: 769px) {
+  #home {
+    margin-top: -10px;
+  }
   #about {
     margin-top: -50px;
   }
@@ -31,11 +38,14 @@
     margin-top: 100px !important;
     margin-left: 20px;
   }
+  #team{
+    margin-top: -100px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   #home {
-    margin-top: 0px;
+    margin-top: -35px;
   }
   #about {
     margin-top: -100px;
