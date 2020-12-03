@@ -271,7 +271,7 @@
   });
     jQuery(window).on("load", function() { 
     
-    //skroll active
+    // skroll active
     skroll.init({
       forceHeight: false
     });
