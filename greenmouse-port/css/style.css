@@ -842,12 +842,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .site-mobile-menu {
-  width: 300px;
+  width: 100%;
   position: fixed;
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  background: #fff;
+  background: #0A1B2B;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -932,7 +932,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   padding: 10px 20px;
   display: block;
   position: relative;
-  color: #212529;
+  color: #fff;
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
