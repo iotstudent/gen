@@ -2,8 +2,17 @@
   margin-top: -50px;
 }
 
+#abouts {
+  margin-top: 0px !important;
+}
+
 .about-mid-img {
   margin-left: 90px;
+}
+
+#distribution .about-mid-text {
+  margin-top: 80px;
+  margin-left: 30px;
 }
 
 .welcome-area .img2 {
@@ -13,6 +22,10 @@
 #distribution .distibution-d {
   margin-top: 150px !important;
   margin-left: 50px;
+}
+
+.single-team-imgs img{
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 769px) {
