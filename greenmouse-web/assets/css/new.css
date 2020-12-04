@@ -38,23 +38,23 @@
     margin-top: 100px !important;
     margin-left: 20px;
   }
-  #team{
+  #team {
     margin-top: -100px;
+  }
+  #distribution .about-mid-text {
+    margin-top: 30px;
   }
 }
 
 @media screen and (max-width: 600px) {
   #home {
-    margin-top: -35px;
+    margin-top: 10px;
   }
   #about {
     margin-top: -100px;
   }
-  .about-mid-text {
-    margin-top: -50px;
-  }
-  .about-mid-img {
-    margin-left: -10px;
+  #distribution .about-mid-text {
+    margin-top: 30px;
   }
   #services .second, #services .third, #services .fourth {
     margin-top: -80px;
