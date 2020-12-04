@@ -1,7 +1,8 @@
 body {
-  font-family: "Roboto", Arial, serif;
-  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  background: #0A1B2B;
   border: 20px #0A1B2B solid;
+  /* border: 20px #82c225 solid; */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -27,12 +28,13 @@ p {
   font-size: 18px;
   color: #727272;
   font-weight: 300;
-  font-family: "Roboto", Arial, serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgba(0, 0, 0, 0.8);
-  font-family: "Roboto", Arial, serif;
+  /* color: rgba(0, 0, 0, 0.8); */
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
 }
@@ -92,8 +94,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inner-heading span {
-  background-color: #c1d6d6;
-  color: white;
+  background-color: #E7FBEE;
+  color: #0A1B2B;
   padding: 4px;
 }
 
@@ -246,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button_container span {
-  background: black;
+  background: #fff;
   border: none;
   height: 4px;
   width: 100%;
@@ -1187,7 +1189,7 @@ figure.effect-julia:hover p {
   margin-top: 40px;
   padding-bottom: 20px;
   letter-spacing: 0;
-  color: #1a1a1a;
+  color: #fff;
 }
 
 .text-projectd-text {
@@ -1325,17 +1327,17 @@ footer .container {
 }
 
 .section-bg-color {
-  background-color: #1a1a1a;
+  background-color: #0A1B2B;
   padding-top: 42px;
   padding-bottom: 42px;
-  background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23050506' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-image: url("");
 }
 
 .section-bg-color1 {
-  background-color: #eaeaea;
+  background-color: #E7FBEE;
   padding-top: 54px;
   padding-bottom: 54px;
-  height: 256px;
+  height: 326px;
 }
 
 .section-bg-color1 h3 {
@@ -1348,14 +1350,16 @@ footer .container {
   margin-top: 40px;
   letter-spacing: 0.1em;
   font-size: 17px;
-  color: #E0DDDD;
+  color: #82C225;
   text-align: left;
+  font-weight: bold;
 }
 
 .section-bg-color p {
-  color: #E0DDDD;
-  font-size: 14px;
+  color: #fff !important;
+  font-size: 16px;
   margin-top: -10px;
+  font-weight: 600 !important;
 }
 
 .icons-f {
