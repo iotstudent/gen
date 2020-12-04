@@ -872,6 +872,9 @@ community area css
 }
 
 @media screen and (max-width:379px) {
+  #header{
+    height: 50vh;
+  }
   .form-input {
     padding-right: 5px;
   }
