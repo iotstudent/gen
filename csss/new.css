@@ -287,9 +287,18 @@
   margin-top: 50px;
 }
 
-.gallery-area {
-  margin-top: 130px;
+#animation {
+  padding-top: 100px;
 }
+
+#animation p{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* .gallery-area {
+  margin-top: 0px;
+} */
 
 .clients {
   background-color: #E7FBEE;
