@@ -117,7 +117,6 @@
   font-size: 50px;
   padding-bottom: 80px;
   padding-top: 100px;
-  /* font-family: 'Rubik', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -132,7 +131,6 @@
 }
 
 .about .p-heading {
-  /* font-family: 'Rubik', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   color: #222;
@@ -166,7 +164,6 @@
 }
 
 .services h5 {
-  /* font-family: 'Rubik', sans-serif; */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -200,7 +197,6 @@
 .par {
   color: #222222;
   font-size: 24px;
-  /* font-family: 'Rubik', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   margin-top: 10px;
 }
@@ -332,7 +328,6 @@ community area css
   margin-left: -150px;
   margin-bottom: 1px;
   padding: 100px 0;
-  /* height: 400px; */
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
@@ -342,15 +337,6 @@ community area css
   left: 0;
   z-index: -10;
   width: 100%;
-}
-
-/* .video {
-  background: rgba(0, 0, 0, 0.7);
-} */
-
-.community-area .container {
-  /* background: rgba(0, 0, 0, 0.7); */
-  /* padding: 50px; */
 }
 
 .community-area:before {
@@ -475,7 +461,6 @@ community area css
 
 .footer p {
   font-size: 16px;
-  /* font-family: 'Rubik', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   line-height: 2rem;
@@ -661,7 +646,7 @@ community area css
     border-radius: 50%;
     border: 1px solid transparent;
   }
-  .footer .second-sec{
+  .footer .second-sec {
     margin-top: 100px;
   }
   .second-sec .right {
@@ -682,7 +667,11 @@ community area css
     margin-top: -20px;
   }
   .slide-text marquee {
-    display: none;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
   }
   .services {
     margin-top: -20px;
@@ -753,7 +742,7 @@ community area css
   .gallery-area {
     margin-top: 30px;
   }
-  .footer p{
+  .footer p {
     font-size: 14px;
   }
   .form-input {
@@ -872,7 +861,7 @@ community area css
 }
 
 @media screen and (max-width:379px) {
-  #header{
+  #header {
     height: 50vh;
   }
   .form-input {
