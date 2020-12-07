@@ -24,8 +24,12 @@
   margin-left: 50px;
 }
 
-.single-team-imgs img{
+.single-team-imgs img {
   border-radius: 10px;
+}
+
+.distibution-svg-12 img {
+  margin-left: 70px;
 }
 
 @media screen and (max-width: 769px) {
@@ -71,6 +75,9 @@
   }
   #services .second, #services .third, #services .fourth {
     margin-top: -80px;
+  }
+  .distibution-svg-12 img {
+    margin-left: 0px;
   }
   #distribution .distibution-d {
     margin-top: 50px !important;
