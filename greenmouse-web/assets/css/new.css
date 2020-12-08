@@ -87,7 +87,10 @@
     margin-top: 50px !important;
     margin-left: 0px;
   }
-  #roadmap {
+  #cms{
+    flex-direction: column-reverse;
+  }
+   #roadmap {
     margin-top: -100px;
   }
   .single-roadmap.road-left::before {

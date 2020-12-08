@@ -291,7 +291,7 @@
   padding-top: 100px;
 }
 
-#animation p{
+#animation p {
   font-size: 18px;
   font-weight: 300;
 }
@@ -614,6 +614,9 @@ community area css
     top: 0%;
     margin-top: 50px;
   }
+  .clients .col-lg-5 {
+    padding-left: 80px;
+  }
   .client .col-lg-4 {
     padding-left: 70px;
   }
@@ -664,6 +667,16 @@ community area css
   .form-input {
     padding-right: 360px;
   }
+  #animation {
+    padding: 0 60px;
+  }
+  #animation .image-container {
+    margin-top: 50px;
+    margin-left: -110px;
+  }
+  #animation img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -713,6 +726,9 @@ community area css
   .client p {
     font-size: 28px;
   }
+  .clients .col-lg-5 {
+    padding: 0 60px;
+  }
   .client img {
     width: 100px;
     margin-bottom: 50px;
@@ -756,6 +772,16 @@ community area css
   }
   .form-input {
     padding-right: 105px;
+  }
+  #animation {
+    padding: 0 60px;
+  }
+  #animation .image-container {
+    margin-top: 50px;
+    margin-left: -110px;
+  }
+  #animation img {
+    width: 100%;
   }
 }
 
@@ -867,6 +893,13 @@ community area css
   .form-input {
     padding-right: 5px;
   }
+  #animation {
+    padding: 0 60px;
+  }
+  #animation .image-container {
+    margin-top: 50px;
+    margin-left: -50px;
+  }
 }
 
 @media screen and (max-width:379px) {
@@ -875,5 +908,8 @@ community area css
   }
   .form-input {
     padding-right: 5px;
+  }
+  .inner #jeff {
+    margin-left: 55px;
   }
 }
