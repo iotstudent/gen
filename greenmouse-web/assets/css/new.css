@@ -36,6 +36,10 @@
   margin-left: 70px;
 }
 
+#aboutss {
+  display: none !important;
+}
+
 @media screen and (max-width: 769px) {
   #home {
     margin-top: -10px;
@@ -87,10 +91,14 @@
     margin-top: 50px !important;
     margin-left: 0px;
   }
-  #cms{
-    flex-direction: column-reverse;
+  #aboutses {
+    display: none !important;
   }
-   #roadmap {
+  #aboutss {
+    display: block !important;
+    margin-top: px;
+  }
+  #roadmap {
     margin-top: -100px;
   }
   .single-roadmap.road-left::before {
